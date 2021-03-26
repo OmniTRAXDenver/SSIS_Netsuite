@@ -12,8 +12,8 @@
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
-  DTS:VersionBuild="110"
-  DTS:VersionGUID="{FEBFC20A-E029-46F7-8F41-B0EF7433D7E4}">
+  DTS:VersionBuild="116"
+  DTS:VersionGUID="{00E6A1A1-BFD6-4228-8F93-5769F8032075}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,22 +27,22 @@
           ConnectionString="ServerUrl=https://webservices.netsuite.com/services;EmailAddress=;AccountId=1125535;ConsumerKey=0e374efe63be8387e9256a645297b560dd56a269742ada454ace315109512927;TokenId=e26b7ea9de8987326ea3674fb2f105cd0d1b822854d6641a26fb7b3a1d3dc790;RoleId=;ApplicationId=;UserTimezone=&quot;Mountain Standard Time&quot;;Timeout=120;RetryOnIntermittentErrors=True;MaxConcurrentRequests=1;AuthenticationMode=Token;ProxyMode=NoProxy;ProxyUsername=;ProxyServer=;ProxyServerPort=0">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="8KQi/eP1Ah0="
-            IV="ytz+Ss4oRqXy0phwMdTRPg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="oG981YOFqf8="
+            IV="sgrAXPWoJ2ONfagppKzhgQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>ytz+Ss4oRqXy0phwMdTRPn3YT0hsjO7Krb9CHZPPD4MxENXU7jCKPKo5fwJyT/ns2qDxXnnXdAdmyYosY7mhZ5RpAxOofYxMUlDi3MTdmgkanE0ROWUR4508BLsz1OkVhUOpb1lrJECIBPBzFA5umgaQJb0ZgxMxCHUZH7cZv6b9rcWVkxEx/qRMTPGhYkOPgWSQBqhL11X/+Y0iwfxIYQMPYfH9QuftaLC/pbLlj9I=</CipherValue>
+              <CipherValue>sgrAXPWoJ2ONfagppKzhgeBQI92k/cPkzJqOgyQ1DhIyTfXUeAZE7yKgIpc+atrnWPwDggWzVFMkVmxsEVHmxSFfJesr9bBcdjDgBTR3c3Obmq7XOQQqw9kTB2bFIeglZHHFUXO2qkpEWLZCKHemoFnLQXus8vGNyWl72/29+aNLZtUo3M7R7Qs/rSvTpkmCT3k2A5f/VravP5+6hy2KfBdHbjci0CSQwCv1I475nIk=</CipherValue>
             </CipherData>
           </EncryptedData>
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="z9lKfY62g1I="
-            IV="l4aDBiV5WLl3uhpsC2BD0w==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="uks70VyUrPo="
+            IV="mRxXzyMQGLkE0kyM9SgIag==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>l4aDBiV5WLl3uhpsC2BD04UZB3LC+hO8hmKehMrxRuGD2zSti1MQX0eGfw9XCv+WEKtCbXId6QqL+xbh3eNrT9XxfkvQ5FWZIsbo+4/aDP65dCpGYlIx4wbNxKdwBDvsV6jHtFE6c/iZUxeGazeR9dC3hA0A94F2rnK74ec1bpv6H4129oizwLn5j8CGuZqucCCVBfmtTHA7YlbU5Fvsz8jhOCbVvwai6TEOy+8P4QY=</CipherValue>
+              <CipherValue>mRxXzyMQGLkE0kyM9SgIapWb2XqGRKlZMa3YQ/KLE78zPSqylgW12UJYU8SdjzHFFa7AV+pFq2zGwuxjL/50oiuVJQKThFHp60qz3HtXc1CzcKJw7SREi9HhDvazmJhe5f/GWMGvHbDJOQXPmgtlrThN9GGXEepL6DirzfHL4kXoFc9JRfc8mypcbBams7fD9qnGf9+heN2fhm4hKs5RhXHfFqa9B1Stz4a7dYVEszQ=</CipherValue>
             </CipherData>
           </EncryptedData>
         </ConnectionManager>
@@ -58,12 +58,12 @@
           DTS:ConnectionString="Data Source=devomni-dbs.database.windows.net;User ID=devomnidbuser;Initial Catalog=devOmniDW;Provider=SQLNCLI11.1;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="vzpDjanX7gA="
-            IV="+rhngEGvpJU6F76+wIxaOg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="hggpb4skETs="
+            IV="29RKJKmbRbaGoqp9kKeM+w==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>+rhngEGvpJU6F76+wIxaOhmp6GX3kD+h/g/n1/BmXo2vCyXUxv1PsDQjRe08S06GyyNF2218QteEnyWJ3zNRWu2nnC1aQF7udD2l1UPBSLSbTpiIQmwpGbEGRypRXgvn2OXBaypHaf8/wcYLR4sGa0FFDUCFvodwfRplUUsqToH52CxOGL9i2Sc1A4AiCzlh</CipherValue>
+              <CipherValue>29RKJKmbRbaGoqp9kKeM++hNQE0TTE67PDxWb9yCMAWwl8rSKIaBHcczG1Wf7HcLR09Wxp1b8cMxh8vFTKSTHWtTBwpkAlU6xVtkn0sC36f02kGd1IjlTNWDz1DJJZJQ2P9Fj1MbZYFIFS/sBs0Us2wiWPNHaZyodKOctKo6L5Xqq1NpvxeHIppiYAsiUQ9o</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -79,12 +79,12 @@
           ConnectionString="ServiceName=Smartsheet;PathToTokenFile=;ApiThrottleRate=0;AuthenticationMode=ApiToken;InstanceType=Default;ProxyMode=NoProxy;ProxyUsername=;ProxyServer=;ProxyServerPort=0;ServiceTimeout=120;RetryOnIntermittentErrors=True;IgnoreCertificateErrors=False">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="L5kqPmf9+sw="
-            IV="ptVW5nPz6RuyiplASB69rw==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="+UlkrZvodic="
+            IV="P+eVnUzN/Tr359m43sNJVw==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>ptVW5nPz6RuyiplASB69r9gNSg9EPK8RTsSfvF90gyjSyNeX93ihLPnA2EP5yE2rMhNSz639k6PKlSlvSGBcpfWHs7Jwn7ucaXTD4DvGLBcZDU0jTpYANmUhOjruq5C4X9E1RU4KOiNtnshbSmIEKxVqM+L1kinxpJmM/Yv025A=</CipherValue>
+              <CipherValue>P+eVnUzN/Tr359m43sNJV+O07nCM4hegMgbLudfn435LH98v9xy4gTcCvIIrrs7WYMR8T8xCHUtOnaKpLEhGQD92o4r29FVEUs1AFxcB+AZDsSclZLSgO+JAeHaQUWdQZ1AMyk4nIE/j91uxhIqmCSfpfIBFlJAQsD9+s+CPw/g=</CipherValue>
             </CipherData>
           </EncryptedData>
         </ConnectionManager>
@@ -2137,7 +2137,7 @@
                   dataType="System.String"
                   description="The object to write to the selected REST service."
                   expressionType="Notify"
-                  name="DestinationObject">Sheet - 2021 Capex Adjusted for Duplicates</property>
+                  name="DestinationObject">Sheet - Copy of 2021 Capex Adjusted for Duplicates</property>
                 <property
                   dataType="System.String"
                   description="The action to use when writing to the selected REST service."
@@ -2160,7 +2160,7 @@
                 <property
                   dataType="System.String"
                   description="Details of the specific endpoint to use."
-                  name="EndpointDetails">{"EndpointInfo":{"FormatString":"/sheets/3463146770851716/rows","Parameters":[],"IdField":"RowId","RequiredFields":{},"SupportsBatch":true,"Method":"POST"},"ObjectNamesAndDetails":{"Sheet - 2021 Capex Adjusted for Duplicates":{"ChildObjectNames":[]}}}</property>
+                  name="EndpointDetails">{"EndpointInfo":{"FormatString":"/sheets/467517408864132/rows","Parameters":[],"IdField":"RowId","RequiredFields":{},"SupportsBatch":true,"Method":"POST"},"ObjectNamesAndDetails":{"Sheet - Copy of 2021 Capex Adjusted for Duplicates":{"ChildObjectNames":[]}}}</property>
               </properties>
               <connections>
                 <connection
@@ -2182,7 +2182,7 @@
                       dataType="System.String"
                       description="ObjectName"
                       expressionType="Notify"
-                      name="ObjectName">Sheet - 2021 Capex Adjusted for Duplicates</property>
+                      name="ObjectName">Sheet - Copy of 2021 Capex Adjusted for Duplicates</property>
                   </properties>
                   <inputColumns>
                     <inputColumn
@@ -2602,7 +2602,8 @@
                     </externalMetadataColumn>
                     <externalMetadataColumn
                       refId="Package\Insert Smartsheet (Adaptive)\REST Destination.Inputs[Merge Join].ExternalColumns[Complete? (NetSuite Field Checked)]"
-                      dataType="bool"
+                      dataType="wstr"
+                      length="255"
                       name="Complete? (NetSuite Field Checked)">
                       <properties>
                         <property
@@ -3367,7 +3368,7 @@
                   dataType="System.String"
                   description="The specific endpoint to use."
                   expressionType="Notify"
-                  name="Endpoint">2021 Capex Adjusted for Duplicates</property>
+                  name="Endpoint">Copy of 2021 Capex Adjusted for Duplicates</property>
                 <property
                   dataType="System.Int32"
                   description="The number of records to retrieve per request."
@@ -3391,7 +3392,7 @@
                 <property
                   dataType="System.String"
                   description="Details of the specific endpoint to use."
-                  name="EndpointDetails">{"EndpointInfo":{"OutputType":1,"FormatString":"/sheets/3463146770851716","Parameters":[],"OptionalIncludeFields":{"attachments":"attachments","discussions":"discussions"},"SubObjectName":"2021 Capex Adjusted for Duplicates","RequiredFields":{}},"ObjectNamesAndDetails":{"Sheet":{"ChildObjectNames":[]}}}</property>
+                  name="EndpointDetails">{"EndpointInfo":{"OutputType":1,"FormatString":"/sheets/467517408864132","Parameters":[],"OptionalIncludeFields":{"attachments":"attachments","discussions":"discussions"},"SubObjectName":"Copy of 2021 Capex Adjusted for Duplicates","RequiredFields":{}},"ObjectNamesAndDetails":{"Sheet":{"ChildObjectNames":[]}}}</property>
                 <property
                   dataType="System.String"
                   description="Special values to go into either the QS or relative path when using the selected endpoint."
@@ -3885,7 +3886,8 @@
                     </externalMetadataColumn>
                     <externalMetadataColumn
                       refId="Package\Insert Smartsheet (Adaptive)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Complete? (NetSuite Field Checked)]"
-                      dataType="bool"
+                      dataType="wstr"
+                      length="255"
                       name="Complete? (NetSuite Field Checked)">
                       <properties>
                         <property
@@ -5349,7 +5351,7 @@
                   dataType="System.String"
                   description="The object to write to the selected REST service."
                   expressionType="Notify"
-                  name="DestinationObject">Sheet - 2021 Capex Adjusted for Duplicates</property>
+                  name="DestinationObject">Sheet - Copy of 2021 Capex Adjusted for Duplicates</property>
                 <property
                   dataType="System.String"
                   description="The action to use when writing to the selected REST service."
@@ -5372,7 +5374,7 @@
                 <property
                   dataType="System.String"
                   description="Details of the specific endpoint to use."
-                  name="EndpointDetails">{"EndpointInfo":{"FormatString":"/sheets/3463146770851716/rows","Parameters":[],"IdField":"RowId","RequiredFields":{},"SupportsBatch":true,"Method":"POST"},"ObjectNamesAndDetails":{"Sheet - 2021 Capex Adjusted for Duplicates":{"ChildObjectNames":[]}}}</property>
+                  name="EndpointDetails">{"EndpointInfo":{"FormatString":"/sheets/467517408864132/rows","Parameters":[],"IdField":"RowId","RequiredFields":{},"SupportsBatch":true,"Method":"POST"},"ObjectNamesAndDetails":{"Sheet - Copy of 2021 Capex Adjusted for Duplicates":{"ChildObjectNames":[]}}}</property>
               </properties>
               <connections>
                 <connection
@@ -5394,7 +5396,7 @@
                       dataType="System.String"
                       description="ObjectName"
                       expressionType="Notify"
-                      name="ObjectName">Sheet - 2021 Capex Adjusted for Duplicates</property>
+                      name="ObjectName">Sheet - Copy of 2021 Capex Adjusted for Duplicates</property>
                   </properties>
                   <inputColumns>
                     <inputColumn
@@ -5775,7 +5777,8 @@
                     </externalMetadataColumn>
                     <externalMetadataColumn
                       refId="Package\Insert Smartsheet (Netsuite)\REST Destination.Inputs[Merge Join].ExternalColumns[Complete? (NetSuite Field Checked)]"
-                      dataType="bool"
+                      dataType="wstr"
+                      length="255"
                       name="Complete? (NetSuite Field Checked)">
                       <properties>
                         <property
@@ -6506,7 +6509,7 @@
                   dataType="System.String"
                   description="The specific endpoint to use."
                   expressionType="Notify"
-                  name="Endpoint">2021 Capex Adjusted for Duplicates</property>
+                  name="Endpoint">Copy of 2021 Capex Adjusted for Duplicates</property>
                 <property
                   dataType="System.Int32"
                   description="The number of records to retrieve per request."
@@ -6530,7 +6533,7 @@
                 <property
                   dataType="System.String"
                   description="Details of the specific endpoint to use."
-                  name="EndpointDetails">{"EndpointInfo":{"OutputType":1,"FormatString":"/sheets/3463146770851716","Parameters":[],"OptionalIncludeFields":{"attachments":"attachments","discussions":"discussions"},"SubObjectName":"2021 Capex Adjusted for Duplicates","RequiredFields":{}},"ObjectNamesAndDetails":{"Sheet":{"ChildObjectNames":[]}}}</property>
+                  name="EndpointDetails">{"EndpointInfo":{"OutputType":1,"FormatString":"/sheets/467517408864132","Parameters":[],"OptionalIncludeFields":{"attachments":"attachments","discussions":"discussions"},"SubObjectName":"Copy of 2021 Capex Adjusted for Duplicates","RequiredFields":{}},"ObjectNamesAndDetails":{"Sheet":{"ChildObjectNames":[]}}}</property>
                 <property
                   dataType="System.String"
                   description="Special values to go into either the QS or relative path when using the selected endpoint."
@@ -7033,7 +7036,8 @@
                     </externalMetadataColumn>
                     <externalMetadataColumn
                       refId="Package\Insert Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Complete? (NetSuite Field Checked)]"
-                      dataType="bool"
+                      dataType="wstr"
+                      length="255"
                       name="Complete? (NetSuite Field Checked)">
                       <properties>
                         <property
@@ -9271,12 +9275,12 @@
                   dataType="System.String"
                   description="The object to write to the selected REST service."
                   expressionType="Notify"
-                  name="DestinationObject">Sheet - 2021 Capex Adjusted for Duplicates</property>
+                  name="DestinationObject">Sheet - Copy of 2021 Capex Adjusted for Duplicates</property>
                 <property
                   dataType="System.String"
                   description="The action to use when writing to the selected REST service."
                   expressionType="Notify"
-                  name="Action">Update</property>
+                  name="Action">Insert</property>
                 <property
                   dataType="System.Int32"
                   description="The number of records to send per request."
@@ -9294,7 +9298,7 @@
                 <property
                   dataType="System.String"
                   description="Details of the specific endpoint to use."
-                  name="EndpointDetails">{"EndpointInfo":{"FormatString":"/sheets/3463146770851716/rows","Parameters":[],"IdField":"RowId","RequiredFields":{"Sheet - 2021 Capex Adjusted for Duplicates":["RowId"]},"SupportsBatch":true,"Method":"PUT"},"ObjectNamesAndDetails":{"Sheet - 2021 Capex Adjusted for Duplicates":{"ChildObjectNames":[]}}}</property>
+                  name="EndpointDetails">{"EndpointInfo":{"FormatString":"/sheets/467517408864132/rows","Parameters":[],"IdField":"RowId","RequiredFields":{},"SupportsBatch":true,"Method":"POST"},"ObjectNamesAndDetails":{"Sheet - Copy of 2021 Capex Adjusted for Duplicates":{"ChildObjectNames":[]}}}</property>
               </properties>
               <connections>
                 <connection
@@ -9316,7 +9320,7 @@
                       dataType="System.String"
                       description="ObjectName"
                       expressionType="Notify"
-                      name="ObjectName">Sheet - 2021 Capex Adjusted for Duplicates</property>
+                      name="ObjectName">Sheet - Copy of 2021 Capex Adjusted for Duplicates</property>
                   </properties>
                   <inputColumns>
                     <inputColumn
@@ -9436,6 +9440,26 @@
                       </properties>
                     </inputColumn>
                     <inputColumn
+                      refId="Package\Update Smartsheet (Netsuite)\REST Destination.Inputs[Merge Join].Columns[Class]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Class"
+                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\REST Destination.Inputs[Merge Join].ExternalColumns[Class]"
+                      lineageId="Package\Update Smartsheet (Netsuite)\Merge Join.Outputs[Merge Join Output].Columns[Class]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The asynchronous error output column of this input column."
+                          name="AsyncErrorOutputColumnId">#{Package\Update Smartsheet (Netsuite)\REST Destination.Outputs[Error Output (Merge Join)].Columns[Class]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The asynchronous default output column of this input column."
+                          name="AsyncDefaultOutputColumnId">#{Package\Update Smartsheet (Netsuite)\REST Destination.Outputs[Default Output (Merge Join)].Columns[Class]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
                       refId="Package\Update Smartsheet (Netsuite)\REST Destination.Inputs[Merge Join].Columns[Commited]"
                       cachedDataType="wstr"
                       cachedLength="4000"
@@ -9535,22 +9559,23 @@
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Update Smartsheet (Netsuite)\REST Destination.Inputs[Merge Join].Columns[RowId]"
-                      cachedDataType="i8"
-                      cachedName="RowId"
-                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\REST Destination.Inputs[Merge Join].ExternalColumns[RowId]"
-                      lineageId="Package\Update Smartsheet (Netsuite)\Merge Join.Outputs[Merge Join Output].Columns[RowId]">
+                      refId="Package\Update Smartsheet (Netsuite)\REST Destination.Inputs[Merge Join].Columns[Projects]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Projects"
+                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\REST Destination.Inputs[Merge Join].ExternalColumns[Projects]"
+                      lineageId="Package\Update Smartsheet (Netsuite)\Merge Join.Outputs[Merge Join Output].Columns[Projects]">
                       <properties>
                         <property
                           containsID="true"
                           dataType="System.Int32"
                           description="The asynchronous error output column of this input column."
-                          name="AsyncErrorOutputColumnId">#{Package\Update Smartsheet (Netsuite)\REST Destination.Outputs[Error Output (Merge Join)].Columns[RowId]}</property>
+                          name="AsyncErrorOutputColumnId">#{Package\Update Smartsheet (Netsuite)\REST Destination.Outputs[Error Output (Merge Join)].Columns[Projects]}</property>
                         <property
                           containsID="true"
                           dataType="System.Int32"
                           description="The asynchronous default output column of this input column."
-                          name="AsyncDefaultOutputColumnId">#{Package\Update Smartsheet (Netsuite)\REST Destination.Outputs[Default Output (Merge Join)].Columns[RowId]}</property>
+                          name="AsyncDefaultOutputColumnId">#{Package\Update Smartsheet (Netsuite)\REST Destination.Outputs[Default Output (Merge Join)].Columns[Projects]}</property>
                       </properties>
                     </inputColumn>
                     <inputColumn
@@ -9617,7 +9642,6 @@
                       cachedDataType="wstr"
                       cachedLength="4000"
                       cachedName="Budget AOP"
-                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\REST Destination.Inputs[Merge Join].ExternalColumns[Budget, AOP]"
                       lineageId="Package\Update Smartsheet (Netsuite)\Merge Join.Outputs[Merge Join Output].Columns[Budget AOP]">
                       <properties>
                         <property
@@ -9636,7 +9660,6 @@
                       refId="Package\Update Smartsheet (Netsuite)\REST Destination.Inputs[Merge Join].Columns[Project Start Date]"
                       cachedDataType="dbTimeStamp"
                       cachedName="Project Start Date"
-                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\REST Destination.Inputs[Merge Join].ExternalColumns[Start Date]"
                       lineageId="Package\Update Smartsheet (Netsuite)\Merge Join.Outputs[Merge Join Output].Columns[Project Start Date]">
                       <properties>
                         <property
@@ -9655,7 +9678,6 @@
                       refId="Package\Update Smartsheet (Netsuite)\REST Destination.Inputs[Merge Join].Columns[Date AFE Entered]"
                       cachedDataType="dbTimeStamp"
                       cachedName="Date AFE Entered"
-                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\REST Destination.Inputs[Merge Join].ExternalColumns[AFE Entry Date]"
                       lineageId="Package\Update Smartsheet (Netsuite)\Merge Join.Outputs[Merge Join Output].Columns[Date AFE Entered]">
                       <properties>
                         <property
@@ -9675,7 +9697,6 @@
                       cachedDataType="wstr"
                       cachedLength="255"
                       cachedName="Current Approval Level"
-                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\REST Destination.Inputs[Merge Join].ExternalColumns[Current Approver]"
                       lineageId="Package\Update Smartsheet (Netsuite)\Merge Join.Outputs[Merge Join Output].Columns[Current Approval Level]">
                       <properties>
                         <property
@@ -9694,7 +9715,6 @@
                       refId="Package\Update Smartsheet (Netsuite)\REST Destination.Inputs[Merge Join].Columns[Complete]"
                       cachedDataType="bool"
                       cachedName="Complete"
-                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\REST Destination.Inputs[Merge Join].ExternalColumns[Complete? (NetSuite Field Checked)]"
                       lineageId="Package\Update Smartsheet (Netsuite)\Merge Join.Outputs[Merge Join Output].Columns[Complete]">
                       <properties>
                         <property
@@ -9710,43 +9730,21 @@
                       </properties>
                     </inputColumn>
                     <inputColumn
-                      refId="Package\Update Smartsheet (Netsuite)\REST Destination.Inputs[Merge Join].Columns[Projects]"
-                      cachedDataType="wstr"
-                      cachedLength="255"
-                      cachedName="Projects"
-                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\REST Destination.Inputs[Merge Join].ExternalColumns[Projects]"
-                      lineageId="Package\Update Smartsheet (Netsuite)\Merge Join.Outputs[Merge Join Output].Columns[Projects]">
+                      refId="Package\Update Smartsheet (Netsuite)\REST Destination.Inputs[Merge Join].Columns[RowId]"
+                      cachedDataType="i8"
+                      cachedName="RowId"
+                      lineageId="Package\Update Smartsheet (Netsuite)\Merge Join.Outputs[Merge Join Output].Columns[RowId]">
                       <properties>
                         <property
                           containsID="true"
                           dataType="System.Int32"
                           description="The asynchronous error output column of this input column."
-                          name="AsyncErrorOutputColumnId">#{Package\Update Smartsheet (Netsuite)\REST Destination.Outputs[Error Output (Merge Join)].Columns[Projects]}</property>
+                          name="AsyncErrorOutputColumnId">#{Package\Update Smartsheet (Netsuite)\REST Destination.Outputs[Error Output (Merge Join)].Columns[RowId]}</property>
                         <property
                           containsID="true"
                           dataType="System.Int32"
                           description="The asynchronous default output column of this input column."
-                          name="AsyncDefaultOutputColumnId">#{Package\Update Smartsheet (Netsuite)\REST Destination.Outputs[Default Output (Merge Join)].Columns[Projects]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Update Smartsheet (Netsuite)\REST Destination.Inputs[Merge Join].Columns[Class]"
-                      cachedDataType="wstr"
-                      cachedLength="255"
-                      cachedName="Class"
-                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\REST Destination.Inputs[Merge Join].ExternalColumns[Class]"
-                      lineageId="Package\Update Smartsheet (Netsuite)\Merge Join.Outputs[Merge Join Output].Columns[Class]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The asynchronous error output column of this input column."
-                          name="AsyncErrorOutputColumnId">#{Package\Update Smartsheet (Netsuite)\REST Destination.Outputs[Error Output (Merge Join)].Columns[Class]}</property>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The asynchronous default output column of this input column."
-                          name="AsyncDefaultOutputColumnId">#{Package\Update Smartsheet (Netsuite)\REST Destination.Outputs[Default Output (Merge Join)].Columns[Class]}</property>
+                          name="AsyncDefaultOutputColumnId">#{Package\Update Smartsheet (Netsuite)\REST Destination.Outputs[Default Output (Merge Join)].Columns[RowId]}</property>
                       </properties>
                     </inputColumn>
                   </inputColumns>
@@ -10048,7 +10046,8 @@
                     </externalMetadataColumn>
                     <externalMetadataColumn
                       refId="Package\Update Smartsheet (Netsuite)\REST Destination.Inputs[Merge Join].ExternalColumns[Complete? (NetSuite Field Checked)]"
-                      dataType="bool"
+                      dataType="wstr"
+                      length="255"
                       name="Complete? (NetSuite Field Checked)">
                       <properties>
                         <property
@@ -10447,25 +10446,6 @@
                       dataType="wstr"
                       length="255"
                       name="Projects">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Specifies if the column should be treated as an array of values."
-                          name="IsArray">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Specifies if the column should be treated as raw json."
-                          name="IsRaw">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Applies only to array fields. Specifies if the inner items of the array should be quoted."
-                          name="QuoteInnerItems">true</property>
-                      </properties>
-                    </externalMetadataColumn>
-                    <externalMetadataColumn
-                      refId="Package\Update Smartsheet (Netsuite)\REST Destination.Inputs[Merge Join].ExternalColumns[RowId]"
-                      dataType="i8"
-                      name="RowId">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -11102,7 +11082,7 @@
                   dataType="System.String"
                   description="The specific endpoint to use."
                   expressionType="Notify"
-                  name="Endpoint">2021 Capex Adjusted for Duplicates</property>
+                  name="Endpoint">Copy of 2021 Capex Adjusted for Duplicates</property>
                 <property
                   dataType="System.Int32"
                   description="The number of records to retrieve per request."
@@ -11113,7 +11093,7 @@
                   description="Specifies the time zone DateTime fields should be output as."
                   expressionType="Notify"
                   name="OutputTimeZone"
-                  typeConverter="KingswaySoft.IntegrationToolkit.ProductivityPack.TimeZone">2</property>
+                  typeConverter="KingswaySoft.IntegrationToolkit.ProductivityPack.TimeZone">0</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies what value to use for link field values."
@@ -11126,7 +11106,7 @@
                 <property
                   dataType="System.String"
                   description="Details of the specific endpoint to use."
-                  name="EndpointDetails">{"EndpointInfo":{"OutputType":1,"FormatString":"/sheets/3463146770851716","Parameters":[],"OptionalIncludeFields":{"attachments":"attachments","discussions":"discussions"},"SubObjectName":"2021 Capex Adjusted for Duplicates","RequiredFields":{}},"ObjectNamesAndDetails":{"Sheet":{"ChildObjectNames":[]}}}</property>
+                  name="EndpointDetails">{"EndpointInfo":{"OutputType":1,"FormatString":"/sheets/467517408864132","Parameters":[],"OptionalIncludeFields":{"attachments":"attachments","discussions":"discussions"},"SubObjectName":"Copy of 2021 Capex Adjusted for Duplicates","RequiredFields":{}},"ObjectNamesAndDetails":{"Sheet":{"ChildObjectNames":[]}}}</property>
                 <property
                   dataType="System.String"
                   description="Special values to go into either the QS or relative path when using the selected endpoint."
@@ -11147,34 +11127,41 @@
                   name="Sheet">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Class]"
-                      dataType="wstr"
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[RowId]"
+                      dataType="i8"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Class]"
-                      length="255"
-                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Class]"
-                      name="Class"
+                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[RowId]"
+                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[RowId]"
+                      name="RowId"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Projects]"
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[% Complete]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Projects]"
+                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[% Complete]"
                       length="255"
-                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Projects]"
-                      name="Projects"
+                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[% Complete]"
+                      name="% Complete"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Project ID]"
-                      dataType="wstr"
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[AFE Approval Date]"
+                      dataType="dbDate"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Project ID]"
-                      length="255"
-                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Project ID]"
-                      name="Project ID"
+                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[AFE Approval Date]"
+                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[AFE Approval Date]"
+                      name="AFE Approval Date"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[AFE Entry Date]"
+                      dataType="dbDate"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[AFE Entry Date]"
+                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[AFE Entry Date]"
+                      name="AFE Entry Date"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
                       refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[AFE Status]"
@@ -11187,41 +11174,139 @@
                       name="AFE Status"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Project Manager]"
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Approved Budget]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Project Manager]"
+                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Approved Budget]"
                       length="255"
-                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Project Manager]"
-                      name="Project Manager"
+                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Approved Budget]"
+                      name="Approved Budget"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[AFE Entry Date]"
-                      dataType="dbDate"
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[BOD Approval]"
+                      dataType="bool"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[AFE Entry Date]"
-                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[AFE Entry Date]"
-                      name="AFE Entry Date"
+                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[BOD Approval]"
+                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[BOD Approval]"
+                      name="BOD Approval"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[AFE Approval Date]"
-                      dataType="dbDate"
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Budget, AOP]"
+                      dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[AFE Approval Date]"
-                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[AFE Approval Date]"
-                      name="AFE Approval Date"
+                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Budget, AOP]"
+                      length="255"
+                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Budget, AOP]"
+                      name="Budget, AOP"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Start Date]"
-                      dataType="dbDate"
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[CEO Approval]"
+                      dataType="bool"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Start Date]"
-                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Start Date]"
-                      name="Start Date"
+                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[CEO Approval]"
+                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[CEO Approval]"
+                      name="CEO Approval"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[CFO Approval]"
+                      dataType="bool"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[CFO Approval]"
+                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[CFO Approval]"
+                      name="CFO Approval"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Check in NetSuite]"
+                      dataType="bool"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Check in NetSuite]"
+                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Check in NetSuite]"
+                      name="Check in NetSuite"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Class]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Class]"
+                      length="255"
+                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Class]"
+                      name="Class"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Comm Loan Rate]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Comm Loan Rate]"
+                      length="255"
+                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Comm Loan Rate]"
+                      name="Comm Loan Rate"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Comm Loan Term]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Comm Loan Term]"
+                      length="255"
+                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Comm Loan Term]"
+                      name="Comm Loan Term"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Commercial Loan Funding Amount]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Commercial Loan Funding Amount]"
+                      length="255"
+                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Commercial Loan Funding Amount]"
+                      name="Commercial Loan Funding Amount"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Commited]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Commited]"
+                      length="255"
+                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Commited]"
+                      name="Commited"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Complete? (NetSuite Field Checked)]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Complete? (NetSuite Field Checked)]"
+                      length="255"
+                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Complete? (NetSuite Field Checked)]"
+                      name="Complete? (NetSuite Field Checked)"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Contract Commitment]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Contract Commitment]"
+                      length="255"
+                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Contract Commitment]"
+                      name="Contract Commitment"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[COO Approval]"
+                      dataType="bool"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[COO Approval]"
+                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[COO Approval]"
+                      name="COO Approval"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
                       refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Current Approver]"
@@ -11234,13 +11319,54 @@
                       name="Current Approver"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[SVPO Approval]"
-                      dataType="bool"
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Expenditure-Total]"
+                      dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[SVPO Approval]"
-                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[SVPO Approval]"
-                      name="SVPO Approval"
+                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Expenditure-Total]"
+                      length="255"
+                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Expenditure-Total]"
+                      name="Expenditure-Total"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Government Grant Funding Amount]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Government Grant Funding Amount]"
+                      length="255"
+                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Government Grant Funding Amount]"
+                      name="Government Grant Funding Amount"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Government Loan Funding Amount]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Government Loan Funding Amount]"
+                      length="255"
+                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Government Loan Funding Amount]"
+                      name="Government Loan Funding Amount"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Govt Loan Rate]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Govt Loan Rate]"
+                      length="255"
+                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Govt Loan Rate]"
+                      name="Govt Loan Rate"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Govt Loan Term]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Govt Loan Term]"
+                      length="255"
+                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Govt Loan Term]"
+                      name="Govt Loan Term"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
                       refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[IDSVP Approval]"
@@ -11250,81 +11376,6 @@
                       externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[IDSVP Approval]"
                       lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[IDSVP Approval]"
                       name="IDSVP Approval"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[COO Approval]"
-                      dataType="bool"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[COO Approval]"
-                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[COO Approval]"
-                      name="COO Approval"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[CFO Approval]"
-                      dataType="bool"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[CFO Approval]"
-                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[CFO Approval]"
-                      name="CFO Approval"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[President Approval]"
-                      dataType="bool"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[President Approval]"
-                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[President Approval]"
-                      name="President Approval"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[CEO Approval]"
-                      dataType="bool"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[CEO Approval]"
-                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[CEO Approval]"
-                      name="CEO Approval"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[BOD Approval]"
-                      dataType="bool"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[BOD Approval]"
-                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[BOD Approval]"
-                      name="BOD Approval"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Project Class]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Project Class]"
-                      length="255"
-                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Project Class]"
-                      name="Project Class"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Project Type]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Project Type]"
-                      length="255"
-                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Project Type]"
-                      name="Project Type"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Expenditure-Total]"
-                      dataType="wstr"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Expenditure-Total]"
-                      length="255"
-                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Expenditure-Total]"
-                      name="Expenditure-Total"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
                       refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[In- Service Date]"
@@ -11347,34 +11398,103 @@
                       name="Income Recognition Date"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Budget, AOP]"
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Is Split Child Row]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Budget, AOP]"
+                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Is Split Child Row]"
                       length="255"
-                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Budget, AOP]"
-                      name="Budget, AOP"
+                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Is Split Child Row]"
+                      name="Is Split Child Row"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Submitted Budget]"
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Level]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Submitted Budget]"
+                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Level]"
                       length="255"
-                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Submitted Budget]"
-                      name="Submitted Budget"
+                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Level]"
+                      name="Level"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Approved Budget]"
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Please add notes and comments here]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Approved Budget]"
+                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Please add notes and comments here]"
                       length="255"
-                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Approved Budget]"
-                      name="Approved Budget"
+                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Please add notes and comments here]"
+                      name="Please add notes and comments here"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[President Approval]"
+                      dataType="bool"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[President Approval]"
+                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[President Approval]"
+                      name="President Approval"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Project Class]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Project Class]"
+                      length="255"
+                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Project Class]"
+                      name="Project Class"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Project ID]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Project ID]"
+                      length="255"
+                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Project ID]"
+                      name="Project ID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Project Manager]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Project Manager]"
+                      length="255"
+                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Project Manager]"
+                      name="Project Manager"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Project Type]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Project Type]"
+                      length="255"
+                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Project Type]"
+                      name="Project Type"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Projects]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Projects]"
+                      length="255"
+                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Projects]"
+                      name="Projects"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[RR]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[RR]"
+                      length="255"
+                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[RR]"
+                      name="RR"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
                       refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Spend]"
@@ -11387,42 +11507,42 @@
                       name="Spend"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Commited]"
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Spread Months]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Commited]"
+                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Spread Months]"
                       length="255"
-                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Commited]"
-                      name="Commited"
+                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Spread Months]"
+                      name="Spread Months"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[% Complete]"
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Start Date]"
+                      dataType="dbDate"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Start Date]"
+                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Start Date]"
+                      name="Start Date"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Submitted Budget]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[% Complete]"
+                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Submitted Budget]"
                       length="255"
-                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[% Complete]"
-                      name="% Complete"
+                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Submitted Budget]"
+                      name="Submitted Budget"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Complete? (NetSuite Field Checked)]"
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[SVPO Approval]"
                       dataType="bool"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Complete? (NetSuite Field Checked)]"
-                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Complete? (NetSuite Field Checked)]"
-                      name="Complete? (NetSuite Field Checked)"
-                      truncationRowDisposition="FailComponent" />
-                    <outputColumn
-                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[RowId]"
-                      dataType="i8"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[RowId]"
-                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[RowId]"
-                      name="RowId"
+                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[SVPO Approval]"
+                      lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[SVPO Approval]"
+                      name="SVPO Approval"
                       truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
@@ -11473,243 +11593,25 @@
                       </properties>
                     </externalMetadataColumn>
                     <externalMetadataColumn
-                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[AFE Approval Date]"
-                      dataType="dbDate"
-                      name="AFE Approval Date">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Specifies if the column should be treated as an array of values."
-                          name="IsArray">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Specifies if the column should be treated as raw json."
-                          name="IsRaw">false</property>
-                      </properties>
-                    </externalMetadataColumn>
-                    <externalMetadataColumn
-                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[BOD Approval]"
-                      dataType="bool"
-                      name="BOD Approval">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Specifies if the column should be treated as an array of values."
-                          name="IsArray">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Specifies if the column should be treated as raw json."
-                          name="IsRaw">false</property>
-                      </properties>
-                    </externalMetadataColumn>
-                    <externalMetadataColumn
-                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[CEO Approval]"
-                      dataType="bool"
-                      name="CEO Approval">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Specifies if the column should be treated as an array of values."
-                          name="IsArray">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Specifies if the column should be treated as raw json."
-                          name="IsRaw">false</property>
-                      </properties>
-                    </externalMetadataColumn>
-                    <externalMetadataColumn
-                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[CFO Approval]"
-                      dataType="bool"
-                      name="CFO Approval">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Specifies if the column should be treated as an array of values."
-                          name="IsArray">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Specifies if the column should be treated as raw json."
-                          name="IsRaw">false</property>
-                      </properties>
-                    </externalMetadataColumn>
-                    <externalMetadataColumn
-                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Class]"
-                      dataType="wstr"
-                      length="255"
-                      name="Class">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Specifies if the column should be treated as an array of values."
-                          name="IsArray">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Specifies if the column should be treated as raw json."
-                          name="IsRaw">false</property>
-                      </properties>
-                    </externalMetadataColumn>
-                    <externalMetadataColumn
-                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Commited]"
-                      dataType="wstr"
-                      length="255"
-                      name="Commited">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Specifies if the column should be treated as an array of values."
-                          name="IsArray">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Specifies if the column should be treated as raw json."
-                          name="IsRaw">false</property>
-                      </properties>
-                    </externalMetadataColumn>
-                    <externalMetadataColumn
-                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[COO Approval]"
-                      dataType="bool"
-                      name="COO Approval">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Specifies if the column should be treated as an array of values."
-                          name="IsArray">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Specifies if the column should be treated as raw json."
-                          name="IsRaw">false</property>
-                      </properties>
-                    </externalMetadataColumn>
-                    <externalMetadataColumn
-                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[IDSVP Approval]"
-                      dataType="bool"
-                      name="IDSVP Approval">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Specifies if the column should be treated as an array of values."
-                          name="IsArray">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Specifies if the column should be treated as raw json."
-                          name="IsRaw">false</property>
-                      </properties>
-                    </externalMetadataColumn>
-                    <externalMetadataColumn
-                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Project Class]"
-                      dataType="wstr"
-                      length="255"
-                      name="Project Class">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Specifies if the column should be treated as an array of values."
-                          name="IsArray">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Specifies if the column should be treated as raw json."
-                          name="IsRaw">false</property>
-                      </properties>
-                    </externalMetadataColumn>
-                    <externalMetadataColumn
-                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Project ID]"
-                      dataType="wstr"
-                      length="255"
-                      name="Project ID">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Specifies if the column should be treated as an array of values."
-                          name="IsArray">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Specifies if the column should be treated as raw json."
-                          name="IsRaw">false</property>
-                      </properties>
-                    </externalMetadataColumn>
-                    <externalMetadataColumn
-                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Project Manager]"
-                      dataType="wstr"
-                      length="255"
-                      name="Project Manager">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Specifies if the column should be treated as an array of values."
-                          name="IsArray">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Specifies if the column should be treated as raw json."
-                          name="IsRaw">false</property>
-                      </properties>
-                    </externalMetadataColumn>
-                    <externalMetadataColumn
-                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Project Type]"
-                      dataType="wstr"
-                      length="255"
-                      name="Project Type">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Specifies if the column should be treated as an array of values."
-                          name="IsArray">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Specifies if the column should be treated as raw json."
-                          name="IsRaw">false</property>
-                      </properties>
-                    </externalMetadataColumn>
-                    <externalMetadataColumn
-                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Projects]"
-                      dataType="wstr"
-                      length="255"
-                      name="Projects">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Specifies if the column should be treated as an array of values."
-                          name="IsArray">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Specifies if the column should be treated as raw json."
-                          name="IsRaw">false</property>
-                      </properties>
-                    </externalMetadataColumn>
-                    <externalMetadataColumn
-                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Spend]"
-                      dataType="wstr"
-                      length="255"
-                      name="Spend">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Specifies if the column should be treated as an array of values."
-                          name="IsArray">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Specifies if the column should be treated as raw json."
-                          name="IsRaw">false</property>
-                      </properties>
-                    </externalMetadataColumn>
-                    <externalMetadataColumn
-                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[SVPO Approval]"
-                      dataType="bool"
-                      name="SVPO Approval">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Specifies if the column should be treated as an array of values."
-                          name="IsArray">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Specifies if the column should be treated as raw json."
-                          name="IsRaw">false</property>
-                      </properties>
-                    </externalMetadataColumn>
-                    <externalMetadataColumn
                       refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[% Complete]"
                       dataType="wstr"
                       length="255"
                       name="% Complete">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Specifies if the column should be treated as an array of values."
+                          name="IsArray">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Specifies if the column should be treated as raw json."
+                          name="IsRaw">false</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[AFE Approval Date]"
+                      dataType="dbDate"
+                      name="AFE Approval Date">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -11769,6 +11671,21 @@
                       </properties>
                     </externalMetadataColumn>
                     <externalMetadataColumn
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[BOD Approval]"
+                      dataType="bool"
+                      name="BOD Approval">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Specifies if the column should be treated as an array of values."
+                          name="IsArray">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Specifies if the column should be treated as raw json."
+                          name="IsRaw">false</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
                       refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Budget, AOP]"
                       dataType="wstr"
                       length="255"
@@ -11785,9 +11702,55 @@
                       </properties>
                     </externalMetadataColumn>
                     <externalMetadataColumn
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[CEO Approval]"
+                      dataType="bool"
+                      name="CEO Approval">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Specifies if the column should be treated as an array of values."
+                          name="IsArray">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Specifies if the column should be treated as raw json."
+                          name="IsRaw">false</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[CFO Approval]"
+                      dataType="bool"
+                      name="CFO Approval">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Specifies if the column should be treated as an array of values."
+                          name="IsArray">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Specifies if the column should be treated as raw json."
+                          name="IsRaw">false</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
                       refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Check in NetSuite]"
                       dataType="bool"
                       name="Check in NetSuite">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Specifies if the column should be treated as an array of values."
+                          name="IsArray">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Specifies if the column should be treated as raw json."
+                          name="IsRaw">false</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Class]"
+                      dataType="wstr"
+                      length="255"
+                      name="Class">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -11848,8 +11811,25 @@
                       </properties>
                     </externalMetadataColumn>
                     <externalMetadataColumn
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Commited]"
+                      dataType="wstr"
+                      length="255"
+                      name="Commited">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Specifies if the column should be treated as an array of values."
+                          name="IsArray">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Specifies if the column should be treated as raw json."
+                          name="IsRaw">false</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
                       refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Complete? (NetSuite Field Checked)]"
-                      dataType="bool"
+                      dataType="wstr"
+                      length="255"
                       name="Complete? (NetSuite Field Checked)">
                       <properties>
                         <property
@@ -11867,6 +11847,21 @@
                       dataType="wstr"
                       length="255"
                       name="Contract Commitment">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Specifies if the column should be treated as an array of values."
+                          name="IsArray">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Specifies if the column should be treated as raw json."
+                          name="IsRaw">false</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[COO Approval]"
+                      dataType="bool"
+                      name="COO Approval">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -11975,6 +11970,21 @@
                       </properties>
                     </externalMetadataColumn>
                     <externalMetadataColumn
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[IDSVP Approval]"
+                      dataType="bool"
+                      name="IDSVP Approval">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Specifies if the column should be treated as an array of values."
+                          name="IsArray">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Specifies if the column should be treated as raw json."
+                          name="IsRaw">false</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
                       refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[In- Service Date]"
                       dataType="wstr"
                       length="255"
@@ -12070,10 +12080,106 @@
                       </properties>
                     </externalMetadataColumn>
                     <externalMetadataColumn
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Project Class]"
+                      dataType="wstr"
+                      length="255"
+                      name="Project Class">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Specifies if the column should be treated as an array of values."
+                          name="IsArray">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Specifies if the column should be treated as raw json."
+                          name="IsRaw">false</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Project ID]"
+                      dataType="wstr"
+                      length="255"
+                      name="Project ID">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Specifies if the column should be treated as an array of values."
+                          name="IsArray">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Specifies if the column should be treated as raw json."
+                          name="IsRaw">false</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Project Manager]"
+                      dataType="wstr"
+                      length="255"
+                      name="Project Manager">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Specifies if the column should be treated as an array of values."
+                          name="IsArray">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Specifies if the column should be treated as raw json."
+                          name="IsRaw">false</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Project Type]"
+                      dataType="wstr"
+                      length="255"
+                      name="Project Type">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Specifies if the column should be treated as an array of values."
+                          name="IsArray">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Specifies if the column should be treated as raw json."
+                          name="IsRaw">false</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Projects]"
+                      dataType="wstr"
+                      length="255"
+                      name="Projects">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Specifies if the column should be treated as an array of values."
+                          name="IsArray">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Specifies if the column should be treated as raw json."
+                          name="IsRaw">false</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
                       refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[RR]"
                       dataType="wstr"
                       length="255"
                       name="RR">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Specifies if the column should be treated as an array of values."
+                          name="IsArray">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Specifies if the column should be treated as raw json."
+                          name="IsRaw">false</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Spend]"
+                      dataType="wstr"
+                      length="255"
+                      name="Spend">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -12121,6 +12227,21 @@
                       dataType="wstr"
                       length="255"
                       name="Submitted Budget">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Specifies if the column should be treated as an array of values."
+                          name="IsArray">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Specifies if the column should be treated as raw json."
+                          name="IsRaw">false</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[SVPO Approval]"
+                      dataType="bool"
+                      name="SVPO Approval">
                       <properties>
                         <property
                           dataType="System.Boolean"
@@ -13280,7 +13401,8 @@
                     </inputColumn>
                     <inputColumn
                       refId="Package\Update Smartsheet (Netsuite)\Sort Smartsheet.Inputs[Sort Input].Columns[Complete? (NetSuite Field Checked)]"
-                      cachedDataType="bool"
+                      cachedDataType="wstr"
+                      cachedLength="255"
                       cachedName="Complete? (NetSuite Field Checked)"
                       lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Complete? (NetSuite Field Checked)]">
                       <properties>
@@ -13691,7 +13813,8 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Update Smartsheet (Netsuite)\Sort Smartsheet.Outputs[Sort Output].Columns[Complete? (NetSuite Field Checked)]"
-                      dataType="bool"
+                      dataType="wstr"
+                      length="255"
                       lineageId="Package\Update Smartsheet (Netsuite)\Sort Smartsheet.Outputs[Sort Output].Columns[Complete? (NetSuite Field Checked)]"
                       name="Complete? (NetSuite Field Checked)">
                       <properties>
@@ -13966,13 +14089,17 @@
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
+          Size="158,42"
+          Id="Package\Insert Smartsheet (Adaptive)\Sort Smartsheet"
+          TopLeft="28,107.5" />
+        <NodeLayout
           Size="159,42"
           Id="Package\Insert Smartsheet (Adaptive)\Conditional Split"
           TopLeft="239.5,311.5" />
         <NodeLayout
-          Size="145,42"
-          Id="Package\Insert Smartsheet (Adaptive)\Sort Adaptive"
-          TopLeft="246.5,107.5" />
+          Size="133,42"
+          Id="Package\Insert Smartsheet (Adaptive)\Merge Join"
+          TopLeft="252.5,209.5" />
         <NodeLayout
           Size="173,42"
           Id="Package\Insert Smartsheet (Adaptive)\Smartsheet Source"
@@ -13982,73 +14109,39 @@
           Id="Package\Insert Smartsheet (Adaptive)\Adaptive Source"
           TopLeft="239,5.5" />
         <NodeLayout
+          Size="145,42"
+          Id="Package\Insert Smartsheet (Adaptive)\Sort Adaptive"
+          TopLeft="246.5,107.5" />
+        <NodeLayout
           Size="166,42"
           Id="Package\Insert Smartsheet (Adaptive)\REST Destination"
           TopLeft="236,413.5" />
         <EdgeLayout
-          Id="Package\Insert Smartsheet (Adaptive).Paths[OLE DB Source Output]"
-          TopLeft="319,47.5">
+          Id="Package\Insert Smartsheet (Adaptive).Paths[Sort Output1]"
+          TopLeft="107,149.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,60"
+              EndConnector="191.166666666667,60"
               Start="0,0"
-              End="0,52.5">
+              End="191.166666666667,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Insert Smartsheet (Adaptive).Paths[New NetSuite Records]"
-          TopLeft="319,353.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,60"
-              Start="0,0"
-              End="0,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
+                    End="0,31.5720653789004" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,31.5720653789004"
+                    Point2="0,35.5720653789004"
+                    Point3="4,35.5720653789004" />
                   <mssgle:LineSegment
-                    End="0,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-58.41623046875,18.25,116.8324609375,16"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="133,42"
-          Id="Package\Insert Smartsheet (Adaptive)\Merge Join"
-          TopLeft="252.5,209.5" />
-        <EdgeLayout
-          Id="Package\Insert Smartsheet (Adaptive).Paths[Merge Join Output]"
-          TopLeft="319,251.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,60"
-              Start="0,0"
-              End="0,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
+                    End="187.166666666667,35.5720653789004" />
+                  <mssgle:CubicBezierSegment
+                    Point1="187.166666666667,35.5720653789004"
+                    Point2="191.166666666667,35.5720653789004"
+                    Point3="191.166666666667,39.5720653789004" />
                   <mssgle:LineSegment
-                    End="0,52.5" />
+                    End="191.166666666667,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -14091,10 +14184,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="158,42"
-          Id="Package\Insert Smartsheet (Adaptive)\Sort Smartsheet"
-          TopLeft="28,107.5" />
         <EdgeLayout
           Id="Package\Insert Smartsheet (Adaptive).Paths[Sheet]"
           TopLeft="92,47.5">
@@ -14130,31 +14219,65 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Insert Smartsheet (Adaptive).Paths[Sort Output1]"
-          TopLeft="107,149.5">
+          Id="Package\Insert Smartsheet (Adaptive).Paths[OLE DB Source Output]"
+          TopLeft="319,47.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="191.166666666667,60"
+              EndConnector="0,60"
               Start="0,0"
-              End="191.166666666667,52.5">
+              End="0,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,31.5720653789004" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,31.5720653789004"
-                    Point2="0,35.5720653789004"
-                    Point3="4,35.5720653789004" />
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Insert Smartsheet (Adaptive).Paths[New NetSuite Records]"
+          TopLeft="319,353.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
                   <mssgle:LineSegment
-                    End="187.166666666667,35.5720653789004" />
-                  <mssgle:CubicBezierSegment
-                    Point1="187.166666666667,35.5720653789004"
-                    Point2="191.166666666667,35.5720653789004"
-                    Point3="191.166666666667,39.5720653789004" />
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-58.41623046875,18.25,99.09515625,9.7490234375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Insert Smartsheet (Adaptive).Paths[Merge Join Output]"
+          TopLeft="319,251.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
                   <mssgle:LineSegment
-                    End="191.166666666667,52.5" />
+                    End="0,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -14185,6 +14308,18 @@
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
+          Size="133,42"
+          Id="Package\Insert Smartsheet (Netsuite)\Merge Join"
+          TopLeft="251.5,209.5" />
+        <NodeLayout
+          Size="158,42"
+          Id="Package\Insert Smartsheet (Netsuite)\Sort Smartsheet"
+          TopLeft="28,107.5" />
+        <NodeLayout
+          Size="166,42"
+          Id="Package\Insert Smartsheet (Netsuite)\REST Destination"
+          TopLeft="235,413.5" />
+        <NodeLayout
           Size="173,42"
           Id="Package\Insert Smartsheet (Netsuite)\Smartsheet Source"
           TopLeft="5.5,5.5" />
@@ -14193,21 +14328,47 @@
           Id="Package\Insert Smartsheet (Netsuite)\Sort Netsuite"
           TopLeft="246.5,107.5" />
         <NodeLayout
-          Size="158,42"
-          Id="Package\Insert Smartsheet (Netsuite)\Sort Smartsheet"
-          TopLeft="28,107.5" />
-        <NodeLayout
-          Size="157,42"
-          Id="Package\Insert Smartsheet (Netsuite)\Netsuite Source"
-          TopLeft="239.5,5.5" />
-        <NodeLayout
           Size="159,42"
           Id="Package\Insert Smartsheet (Netsuite)\Conditional Split"
           TopLeft="238.5,311.5" />
         <NodeLayout
-          Size="166,42"
-          Id="Package\Insert Smartsheet (Netsuite)\REST Destination"
-          TopLeft="235,413.5" />
+          Size="157,42"
+          Id="Package\Insert Smartsheet (Netsuite)\Netsuite Source"
+          TopLeft="239.5,5.5" />
+        <EdgeLayout
+          Id="Package\Insert Smartsheet (Netsuite).Paths[Sort Output]"
+          TopLeft="107,149.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="190.166666666667,60"
+              Start="0,0"
+              End="190.166666666667,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,31.5720653789004" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,31.5720653789004"
+                    Point2="0,35.5720653789004"
+                    Point3="4,35.5720653789004" />
+                  <mssgle:LineSegment
+                    End="186.166666666667,35.5720653789004" />
+                  <mssgle:CubicBezierSegment
+                    Point1="186.166666666667,35.5720653789004"
+                    Point2="190.166666666667,35.5720653789004"
+                    Point3="190.166666666667,39.5720653789004" />
+                  <mssgle:LineSegment
+                    End="190.166666666667,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Insert Smartsheet (Netsuite).Paths[Sheet]"
           TopLeft="92,47.5">
@@ -14288,10 +14449,6 @@
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="133,42"
-          Id="Package\Insert Smartsheet (Netsuite)\Merge Join"
-          TopLeft="251.5,209.5" />
         <EdgeLayout
           Id="Package\Insert Smartsheet (Netsuite).Paths[Merge Join Output]"
           TopLeft="318,251.5">
@@ -14306,40 +14463,6 @@
                   Capacity="5">
                   <mssgle:LineSegment
                     End="0,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Insert Smartsheet (Netsuite).Paths[Sort Output]"
-          TopLeft="107,149.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="190.166666666667,60"
-              Start="0,0"
-              End="190.166666666667,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,31.5720653789004" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,31.5720653789004"
-                    Point2="0,35.5720653789004"
-                    Point3="4,35.5720653789004" />
-                  <mssgle:LineSegment
-                    End="186.166666666667,35.5720653789004" />
-                  <mssgle:CubicBezierSegment
-                    Point1="186.166666666667,35.5720653789004"
-                    Point2="190.166666666667,35.5720653789004"
-                    Point3="190.166666666667,39.5720653789004" />
-                  <mssgle:LineSegment
-                    End="190.166666666667,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -14404,13 +14527,13 @@
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
+          Size="143,42"
+          Id="Package\Update Smartsheet (Netsuite)\Sort Netsuite"
+          TopLeft="255,90" />
+        <NodeLayout
           Size="133,42"
           Id="Package\Update Smartsheet (Netsuite)\Merge Join"
           TopLeft="207,224" />
-        <NodeLayout
-          Size="158,42"
-          Id="Package\Update Smartsheet (Netsuite)\Sort Smartsheet"
-          TopLeft="28,107.5" />
         <NodeLayout
           Size="157,42"
           Id="Package\Update Smartsheet (Netsuite)\OLE DB Source"
@@ -14420,81 +14543,13 @@
           Id="Package\Update Smartsheet (Netsuite)\Smartsheet Source"
           TopLeft="5.50000000000003,5.5" />
         <NodeLayout
-          Size="143,42"
-          Id="Package\Update Smartsheet (Netsuite)\Sort Netsuite"
-          TopLeft="255,90" />
-        <NodeLayout
           Size="166,42"
           Id="Package\Update Smartsheet (Netsuite)\REST Destination"
           TopLeft="238,333" />
-        <EdgeLayout
-          Id="Package\Update Smartsheet (Netsuite).Paths[Sort Output1]"
-          TopLeft="326.5,132">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-32.1666666666667,92"
-              Start="0,0"
-              End="-32.1666666666667,84.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,50.5438335809807" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,50.5438335809807"
-                    Point2="0,54.5438335809807"
-                    Point3="-4,54.5438335809807" />
-                  <mssgle:LineSegment
-                    End="-28.1666666666667,54.5438335809807" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-28.1666666666667,54.5438335809807"
-                    Point2="-32.1666666666667,54.5438335809807"
-                    Point3="-32.1666666666667,58.5438335809807" />
-                  <mssgle:LineSegment
-                    End="-32.1666666666667,84.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Update Smartsheet (Netsuite).Paths[Sort Output]"
-          TopLeft="107,149.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="145.666666666667,74.5"
-              Start="0,0"
-              End="145.666666666667,67">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,40.1686478454681" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,40.1686478454681"
-                    Point2="0,44.1686478454681"
-                    Point3="4,44.1686478454681" />
-                  <mssgle:LineSegment
-                    End="141.666666666667,44.1686478454681" />
-                  <mssgle:CubicBezierSegment
-                    Point1="141.666666666667,44.1686478454681"
-                    Point2="145.666666666667,44.1686478454681"
-                    Point3="145.666666666667,48.1686478454681" />
-                  <mssgle:LineSegment
-                    End="145.666666666667,67" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+        <NodeLayout
+          Size="158,42"
+          Id="Package\Update Smartsheet (Netsuite)\Sort Smartsheet"
+          TopLeft="28,107.5" />
         <EdgeLayout
           Id="Package\Update Smartsheet (Netsuite).Paths[Sheet]"
           TopLeft="92,47.5">
@@ -14589,6 +14644,74 @@
                     Point3="47.5,37.5" />
                   <mssgle:LineSegment
                     End="47.5,59.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Update Smartsheet (Netsuite).Paths[Sort Output1]"
+          TopLeft="326.5,132">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-32.1666666666667,92"
+              Start="0,0"
+              End="-32.1666666666667,84.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,50.5438335809807" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,50.5438335809807"
+                    Point2="0,54.5438335809807"
+                    Point3="-4,54.5438335809807" />
+                  <mssgle:LineSegment
+                    End="-28.1666666666667,54.5438335809807" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-28.1666666666667,54.5438335809807"
+                    Point2="-32.1666666666667,54.5438335809807"
+                    Point3="-32.1666666666667,58.5438335809807" />
+                  <mssgle:LineSegment
+                    End="-32.1666666666667,84.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Update Smartsheet (Netsuite).Paths[Sort Output]"
+          TopLeft="107,149.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="145.666666666667,74.5"
+              Start="0,0"
+              End="145.666666666667,67">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,40.1686478454681" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,40.1686478454681"
+                    Point2="0,44.1686478454681"
+                    Point3="4,44.1686478454681" />
+                  <mssgle:LineSegment
+                    End="141.666666666667,44.1686478454681" />
+                  <mssgle:CubicBezierSegment
+                    Point1="141.666666666667,44.1686478454681"
+                    Point2="145.666666666667,44.1686478454681"
+                    Point3="145.666666666667,48.1686478454681" />
+                  <mssgle:LineSegment
+                    End="145.666666666667,67" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
