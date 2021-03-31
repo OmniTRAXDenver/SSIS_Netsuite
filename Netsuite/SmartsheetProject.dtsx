@@ -12,8 +12,8 @@
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
-  DTS:VersionBuild="118"
-  DTS:VersionGUID="{DB60AFEC-B0BD-4E1C-A56B-E4EDF84FDC2B}">
+  DTS:VersionBuild="119"
+  DTS:VersionGUID="{F87E3F12-F5D3-4118-941A-40619DB627B9}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,22 +27,22 @@
           ConnectionString="ServerUrl=https://webservices.netsuite.com/services;EmailAddress=;AccountId=1125535;ConsumerKey=0e374efe63be8387e9256a645297b560dd56a269742ada454ace315109512927;TokenId=e26b7ea9de8987326ea3674fb2f105cd0d1b822854d6641a26fb7b3a1d3dc790;RoleId=;ApplicationId=;UserTimezone=&quot;Mountain Standard Time&quot;;Timeout=120;RetryOnIntermittentErrors=True;MaxConcurrentRequests=1;AuthenticationMode=Token;ProxyMode=NoProxy;ProxyUsername=;ProxyServer=;ProxyServerPort=0">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="iBGL0r2OzT0="
-            IV="jf6xST1M6lInkh/pqtnyTQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="Wllz8BH8hLw="
+            IV="FMFIrpxkc6kIQZZElcaLPQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>jf6xST1M6lInkh/pqtnyTauSf8NQl6nZTFAmYWzLXaguDVpctRKnuLFhkfbXTExQkFwxgyfiNyukF39CLIMA8SWglWWRVOo0jF8vywMhZFAEQ2EqaR6LLSv690+5eLajUTw1MCDWXgk6tMWRl58zvQ5T/sgGpaw5jtJN2ZFtFzoMA1Jd6tX27GBBVzJn/0YPFsEGJdswf8XKN+T6TKWySI0hAjL9hscVeWJE+cv3pps=</CipherValue>
+              <CipherValue>FMFIrpxkc6kIQZZElcaLPQyz69RmsukNzIaBRO9IPGt9Q4LYh50mq+wPqDTUj1SNQQ3fExbwF4fW9V2zBqkFF+2LbBCmpGxHZYA54Fux9TGckzajnsnG8zCwJK8stesgTj+YQppWy4h9Od2KEky0oMoInfAmI7sZtLLpW5dOKmL5/RYQtuUe6elWufyKXpbLBbpJATmT8ou3KzR1Ob8rpCX7cBI+f3erSUn+I5JsztI=</CipherValue>
             </CipherData>
           </EncryptedData>
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="2x2AMc++wgU="
-            IV="RuFl/ZCGpXXtbuJs9BkpPw==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="/GRyt3wD6U0="
+            IV="v4enoInLS2l1XkTR33I7ig==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>RuFl/ZCGpXXtbuJs9BkpP4nnIaDck3902RBSc81hAe1P5w1C/M/3UUQWLE4J1a+YMPA90iKS1FaooLNPeCA+keOOCA41g70y7lUSElbZS7LsMvbWOSUPr6Bv7FEzgAcNQYlo5JkyONz8rXi6G2WeORPG2t4kkEORKmoIHKMtiteUhxBH8AL6WDxcfRjikuwEq9FM28OAz3FcbG/omLbfc7DV/A1wvZodUBdeonrthFo=</CipherValue>
+              <CipherValue>v4enoInLS2l1XkTR33I7ioaoE16wS3vUsFozedTajhuHKTQanaeUEKYEoDcfY2fEsAj1AvHhlm3hPbtl3CV1ENsZROAx47OkK1gQ6xc22DNZws+jJnXJ4daAQii0xp0WXcZ/pY2v94xVJt7jswUhH8vRDzf/YvPtIamdiqZlht7pQ7t6RxLmGxjYILRrscutuxQFgeTmv8qGFktRqhJuvSeCz4ud8k4Pakm2G2qbnS4=</CipherValue>
             </CipherData>
           </EncryptedData>
         </ConnectionManager>
@@ -58,12 +58,12 @@
           DTS:ConnectionString="Data Source=devomni-dbs.database.windows.net;User ID=devomnidbuser;Initial Catalog=devOmniDW;Provider=SQLNCLI11.1;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="em0SFLZDKWY="
-            IV="RrfhC8lb8RkGyuZCjBvnOA==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="ozyD+n920a4="
+            IV="41J/pmUOayUpYvvU6tUmTA==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>RrfhC8lb8RkGyuZCjBvnOOYctzkmyfQYzt+tzK5MHi5bCs73p0Q/9MrWPFuFLCM4yKdJFFoCkguCrbTnuCvqrTsAZhpsVllBocNwUPEkv+swjm/W1a/Kk8JcFJXVRa5bPZZSGzJ0odPCwprFMlMjvaMK5N3JTpfYDlSa2PdBPu4yQv8r1pZ+B9inW1rBdDEZ</CipherValue>
+              <CipherValue>41J/pmUOayUpYvvU6tUmTKvFduCNsFIZvAdPC9D+bWtVbIemQ3RAv5WURc6gfaCYdiDzr2T5qztyHkp5gOPN7FeSONtZ4G/ikdZ7Q7zvJSRpYRKvudwlor2r2Y1rveNZOl5B4+f2tWdG2Ut6xhz4ohwmjRREcu4rmVTKzLwVSZ/3EQvswt3ybOhX3t+qaOIa</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -79,12 +79,12 @@
           ConnectionString="ServiceName=Smartsheet;PathToTokenFile=;ApiThrottleRate=0;AuthenticationMode=ApiToken;InstanceType=Default;ProxyMode=NoProxy;ProxyUsername=;ProxyServer=;ProxyServerPort=0;ServiceTimeout=120;RetryOnIntermittentErrors=True;IgnoreCertificateErrors=False">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="odzH5pqXv1s="
-            IV="KeezSbMN0xo+7Gm6EVZsMg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="2DX4CIAfaQM="
+            IV="cTX+t3vA7Rp7gY/ugeg/Sg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>KeezSbMN0xo+7Gm6EVZsMp7o2maSrBxTbXkkAXvfR7lgJpjb7nfxOowAAn5oEI1xSFPRjRN21nkhu9jCYH3TRWPVcyYjcS0n3GKnl+A9yZgOVNmCpjpH1Keb8pky104Lsd8PzoShgXLP0rUQeBo7/KX+7OOVLBt0At0GULeR1tQ=</CipherValue>
+              <CipherValue>cTX+t3vA7Rp7gY/ugeg/Ss0YRiLjH2KoyHWRFGWP5jxelsgBWHwEenPwMUxnHe/6PfMG/Hio0aSUIF03KXf+IsH7JGGUbuk6l3Jon/GSx+pRR+ufB42lQTinNdJpO8SATxU/aui2MoWHGgPIjxAewcSv9+E9hSWO2+MUGbZG750=</CipherValue>
             </CipherData>
           </EncryptedData>
         </ConnectionManager>
@@ -14445,7 +14445,7 @@
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-58.41623046875,18.25,116.8324609375,16"
+              BoundingBox="-49.547578125,21.37548828125,99.09515625,9.7490234375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -14527,29 +14527,97 @@
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
+          Size="133,42"
+          Id="Package\Update Smartsheet (Netsuite)\Merge Join"
+          TopLeft="207,224" />
+        <NodeLayout
           Size="143,42"
           Id="Package\Update Smartsheet (Netsuite)\Sort Netsuite"
           TopLeft="255,90" />
         <NodeLayout
-          Size="133,42"
-          Id="Package\Update Smartsheet (Netsuite)\Merge Join"
-          TopLeft="207,224" />
+          Size="158,42"
+          Id="Package\Update Smartsheet (Netsuite)\Sort Smartsheet"
+          TopLeft="28,107.5" />
         <NodeLayout
           Size="157,42"
           Id="Package\Update Smartsheet (Netsuite)\OLE DB Source"
           TopLeft="239.5,5.5" />
         <NodeLayout
-          Size="173,42"
-          Id="Package\Update Smartsheet (Netsuite)\Smartsheet Source"
-          TopLeft="5.50000000000003,5.5" />
-        <NodeLayout
           Size="166,42"
           Id="Package\Update Smartsheet (Netsuite)\REST Destination"
           TopLeft="238,333" />
         <NodeLayout
-          Size="158,42"
-          Id="Package\Update Smartsheet (Netsuite)\Sort Smartsheet"
-          TopLeft="28,107.5" />
+          Size="173,42"
+          Id="Package\Update Smartsheet (Netsuite)\Smartsheet Source"
+          TopLeft="5.50000000000003,5.5" />
+        <EdgeLayout
+          Id="Package\Update Smartsheet (Netsuite).Paths[Sort Output1]"
+          TopLeft="326.5,132">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-32.1666666666667,92"
+              Start="0,0"
+              End="-32.1666666666667,84.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,50.5438335809807" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,50.5438335809807"
+                    Point2="0,54.5438335809807"
+                    Point3="-4,54.5438335809807" />
+                  <mssgle:LineSegment
+                    End="-28.1666666666667,54.5438335809807" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-28.1666666666667,54.5438335809807"
+                    Point2="-32.1666666666667,54.5438335809807"
+                    Point3="-32.1666666666667,58.5438335809807" />
+                  <mssgle:LineSegment
+                    End="-32.1666666666667,84.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Update Smartsheet (Netsuite).Paths[Sort Output]"
+          TopLeft="107,149.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="145.666666666667,74.5"
+              Start="0,0"
+              End="145.666666666667,67">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,40.1686478454681" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,40.1686478454681"
+                    Point2="0,44.1686478454681"
+                    Point3="4,44.1686478454681" />
+                  <mssgle:LineSegment
+                    End="141.666666666667,44.1686478454681" />
+                  <mssgle:CubicBezierSegment
+                    Point1="141.666666666667,44.1686478454681"
+                    Point2="145.666666666667,44.1686478454681"
+                    Point3="145.666666666667,48.1686478454681" />
+                  <mssgle:LineSegment
+                    End="145.666666666667,67" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Update Smartsheet (Netsuite).Paths[Sheet]"
           TopLeft="92,47.5">
@@ -14644,74 +14712,6 @@
                     Point3="47.5,37.5" />
                   <mssgle:LineSegment
                     End="47.5,59.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Update Smartsheet (Netsuite).Paths[Sort Output1]"
-          TopLeft="326.5,132">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-32.1666666666667,92"
-              Start="0,0"
-              End="-32.1666666666667,84.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,50.5438335809807" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,50.5438335809807"
-                    Point2="0,54.5438335809807"
-                    Point3="-4,54.5438335809807" />
-                  <mssgle:LineSegment
-                    End="-28.1666666666667,54.5438335809807" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-28.1666666666667,54.5438335809807"
-                    Point2="-32.1666666666667,54.5438335809807"
-                    Point3="-32.1666666666667,58.5438335809807" />
-                  <mssgle:LineSegment
-                    End="-32.1666666666667,84.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Update Smartsheet (Netsuite).Paths[Sort Output]"
-          TopLeft="107,149.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="145.666666666667,74.5"
-              Start="0,0"
-              End="145.666666666667,67">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,40.1686478454681" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,40.1686478454681"
-                    Point2="0,44.1686478454681"
-                    Point3="4,44.1686478454681" />
-                  <mssgle:LineSegment
-                    End="141.666666666667,44.1686478454681" />
-                  <mssgle:CubicBezierSegment
-                    Point1="141.666666666667,44.1686478454681"
-                    Point2="145.666666666667,44.1686478454681"
-                    Point3="145.666666666667,48.1686478454681" />
-                  <mssgle:LineSegment
-                    End="145.666666666667,67" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>

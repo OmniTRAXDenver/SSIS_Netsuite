@@ -12,8 +12,8 @@
   DTS:ObjectName="SmartsheetProjectUpdate"
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
-  DTS:VersionBuild="120"
-  DTS:VersionGUID="{E6D127D7-57FB-46BF-B705-7245694481C1}">
+  DTS:VersionBuild="131"
+  DTS:VersionGUID="{625140F4-7B5D-47A5-B51A-ED6BCF5A31D7}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,22 +27,22 @@
           ConnectionString="ServerUrl=https://webservices.netsuite.com/services;EmailAddress=;AccountId=1125535;ConsumerKey=0e374efe63be8387e9256a645297b560dd56a269742ada454ace315109512927;TokenId=e26b7ea9de8987326ea3674fb2f105cd0d1b822854d6641a26fb7b3a1d3dc790;RoleId=;ApplicationId=;UserTimezone=&quot;Mountain Standard Time&quot;;Timeout=120;RetryOnIntermittentErrors=True;MaxConcurrentRequests=1;AuthenticationMode=Token;ProxyMode=NoProxy;ProxyUsername=;ProxyServer=;ProxyServerPort=0">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="zX6Y5p3OWPA="
-            IV="FGDZh9YDvukbOufjaECydg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="uwoPa4u0vIc="
+            IV="ka5G7gqJxX4d7RnALyR/bg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>FGDZh9YDvukbOufjaECydte3HRwlrt9GPDZDm/6h1cOro+B10wLsa99qwMokXJYlwmo+RMHRA8ZeTHhiuWZvQkM0BQv7izQQeo+AcEcTINonk7t003x+5ZnanLyZJzWrllxTzegsmxsHTT/sYBjB3NhjY2UwQfDFqA/8Ey8IKQGR+6klW6T1STOMfV2jEY31m0i1+JiyLAtXTnvorrFrip+Itc8QoF0fFTo9udrHygA=</CipherValue>
+              <CipherValue>ka5G7gqJxX4d7RnALyR/bpF7D5Bx5NDkoS1RyTuVZKWFHY+05jU3ezAf10BxJZILS6ZSY9S/KyW9+eHUw7n2mNgp+6mxT3rs+bT7IplvnG4t10IYqOnyRr0h3VsFL3oiiHc6v93HU+60Mv0Nv5onYtvhb+Lq7XF3rpgLdMj1SIXENpizqm40lmM3ZuKyiZVGZj7OYj85asFGTllKWYC8ONI2Ieb7oNTpgHELdY+0PUk=</CipherValue>
             </CipherData>
           </EncryptedData>
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="B19jzTaauK8="
-            IV="SVbyMZ8+N3YoWmlTiXBRgw==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="2oyYvQVtvSg="
+            IV="9hHjLtINpA4jWGYxxxYwjw==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>SVbyMZ8+N3YoWmlTiXBRg368UGtaOlTwbdLw1nqILIQUsLwlsHM1vdpSKoaCsZ6ffkBjjiRjh5I8uzDg8yF4pLQ+NehFaMqRqmSTpkTAL+ngapxNG3oQgccDPe8C6DHJEan8KCN4yPVEG6Yi0l4XNj4bR9hhOC40thcETE8nb4L/JZUkvPAiVX37nlmw9icbMccEQRahdR99Kc4lZrNgw8cttuLF4ScQNHHj9f2+ktM=</CipherValue>
+              <CipherValue>9hHjLtINpA4jWGYxxxYwj1IjZo3gWO0F6VRvnAOdf6zovQZFeacs12YvZh1kXHAW60Uj92T1j/WcxjLDbQAVY1r8D4/AE0kmJc2KTfLdtMDd2NxzsVtivjAuerkniUfDVWHN0yWIeYrhZ85PGjloJlDIQ/zQ970jVvm24VPwcsowJTIJT4yFipyT4Ll6l7roO7Ihz9fX5ndFLtw/QfyIC4z+XEohdJMHbAxDaXcX+3s=</CipherValue>
             </CipherData>
           </EncryptedData>
         </ConnectionManager>
@@ -58,12 +58,12 @@
           DTS:ConnectionString="Data Source=devomni-dbs.database.windows.net;User ID=devomnidbuser;Initial Catalog=devOmniDW;Provider=SQLNCLI11.1;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="7MbcvO6pDuk="
-            IV="uqrD7bL+eK9b3nPx8qFIdg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="SMkaztzkiXA="
+            IV="XlVQCI4LUAGbCxeG8ImASw==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>uqrD7bL+eK9b3nPx8qFIdqooaUW2eGDP/j9BV6MkwCAh2/4vGK7oW961FmditpjJ1phokIPeWdOP1gjzmF4HLZgweewBJgwbbCvpYZxS+ASatI2lRNpKztnNMly8cRVBNmnFkVFGscPhOjIPBIidIahHriKRoOSFBmgLjKZym2luHXG0UZuwsP4lPJFzcHtL</CipherValue>
+              <CipherValue>XlVQCI4LUAGbCxeG8ImAS7ciExXY9Ro7A3J0QKCx+t0tjMus9qeN2LXZC3q0WIR/WoYUTUJL+sqMoZ2uLdP81gpxljdMFDctRoN2PEPZyxlJSGXJUJLVi3u+dL8lhPADZzOYvsRlJX7BGTiiGr/TbOQUfirPFJ3g83C7ZVQVgJpKcZcVNMMp8lAnVJ6wjhnG</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -79,12 +79,12 @@
           ConnectionString="ServiceName=Smartsheet;PathToTokenFile=;ApiThrottleRate=0;AuthenticationMode=ApiToken;InstanceType=Default;ProxyMode=NoProxy;ProxyUsername=;ProxyServer=;ProxyServerPort=0;ServiceTimeout=120;RetryOnIntermittentErrors=True;IgnoreCertificateErrors=False">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="rbZdPi1aTW0="
-            IV="s5maJbf68Ih0Q8HVv2Ug5Q==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="34NdKMPyWKk="
+            IV="ZPfb/PaoYpG/iu3RVquKAg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>s5maJbf68Ih0Q8HVv2Ug5SvA88CFZP/esG8deaC6wFUwWMPBIQ9cFAD1qOJY823w1bZyd9MZl/S0k+dslUPCcrwY3cjpx9ye9K3zn0Oz+2k9HVyn0Yo/44cU5hqtM8puAc721pqByyrnjmmNQE2ox2IwGHKF1lNIIFVLipXIUmY=</CipherValue>
+              <CipherValue>ZPfb/PaoYpG/iu3RVquKApwhnwu+CN9m1GkW+QHvzNz5FVTqnaCmOofbCrdGyTyfSL/YtV0DIltTuSNRHf4SdRf483sjb4OPZrzVScWf90uJu2VDCdJcockF5O3k8Neu/J2pTr/OXx1qSewo33WJZ9dHQbFcgQv1fQi0hJfHtfE=</CipherValue>
             </CipherData>
           </EncryptedData>
         </ConnectionManager>
@@ -386,6 +386,15 @@
                       externalMetadataColumnId="Package\Insert Netsuite Project\NetSuite Source.Outputs[Primary Output].ExternalColumns[_custentity_omni_svp_ops_to_approve]"
                       lineageId="Package\Insert Netsuite Project\NetSuite Source.Outputs[Primary Output].Columns[_custentity_omni_svp_ops_to_approve]"
                       name="_custentity_omni_svp_ops_to_approve"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Insert Netsuite Project\NetSuite Source.Outputs[Primary Output].Columns[_custentity_omni_date_project_approved]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Insert Netsuite Project\NetSuite Source.Outputs[Primary Output].ExternalColumns[_custentity_omni_date_project_approved]"
+                      lineageId="Package\Insert Netsuite Project\NetSuite Source.Outputs[Primary Output].Columns[_custentity_omni_date_project_approved]"
+                      name="_custentity_omni_date_project_approved"
                       truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
@@ -1232,6 +1241,16 @@
                           name="ScriptId">custentity_omni_svp_ops_to_approve</property>
                       </properties>
                     </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Insert Netsuite Project\NetSuite Source.Outputs[Primary Output].ExternalColumns[_custentity_omni_date_project_approved]"
+                      dataType="dbTimeStamp"
+                      name="_custentity_omni_date_project_approved">
+                      <properties>
+                        <property
+                          dataType="System.String"
+                          name="ScriptId">custentity_omni_date_project_approved</property>
+                      </properties>
+                    </externalMetadataColumn>
                   </externalMetadataColumns>
                 </output>
               </outputs>
@@ -1451,6 +1470,12 @@
                       cachedName="_custentity_omni_svp_ops_to_approve"
                       externalMetadataColumnId="Package\Insert Netsuite Project\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[_custentity_omni_svp_ops_to_approve]"
                       lineageId="Package\Insert Netsuite Project\NetSuite Source.Outputs[Primary Output].Columns[_custentity_omni_svp_ops_to_approve]" />
+                    <inputColumn
+                      refId="Package\Insert Netsuite Project\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[_custentity_omni_date_project_approved]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="_custentity_omni_date_project_approved"
+                      externalMetadataColumnId="Package\Insert Netsuite Project\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[_custentity_omni_date_project_approved]"
+                      lineageId="Package\Insert Netsuite Project\NetSuite Source.Outputs[Primary Output].Columns[_custentity_omni_date_project_approved]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -1552,6 +1577,10 @@
                       refId="Package\Insert Netsuite Project\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[_custentity_omni_svp_ops_to_approve]"
                       dataType="bool"
                       name="_custentity_omni_svp_ops_to_approve" />
+                    <externalMetadataColumn
+                      refId="Package\Insert Netsuite Project\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[_custentity_omni_date_project_approved]"
+                      dataType="dbTimeStamp"
+                      name="_custentity_omni_date_project_approved" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -1728,7 +1757,7 @@
                       lineageId="Package\Update Smartsheet (Netsuite)\Sort Netsuite.Outputs[Sort Output].Columns[Date AFE Entered]" />
                     <inputColumn
                       refId="Package\Update Smartsheet (Netsuite)\Merge Join.Inputs[Merge Join Right Input].Columns[AFE Approval Date]"
-                      cachedDataType="i4"
+                      cachedDataType="dbTimeStamp"
                       cachedName="AFE Approval Date"
                       lineageId="Package\Update Smartsheet (Netsuite)\Sort Netsuite.Outputs[Sort Output].Columns[AFE Approval Date]" />
                     <inputColumn
@@ -1927,7 +1956,7 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Update Smartsheet (Netsuite)\Merge Join.Outputs[Merge Join Output].Columns[AFE Approval Date]"
-                      dataType="i4"
+                      dataType="dbTimeStamp"
                       lineageId="Package\Update Smartsheet (Netsuite)\Merge Join.Outputs[Merge Join Output].Columns[AFE Approval Date]"
                       name="AFE Approval Date">
                       <properties>
@@ -2254,7 +2283,7 @@
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
                       refId="Package\Update Smartsheet (Netsuite)\OLE DB Source.Outputs[OLE DB Source Output].Columns[AFE Approval Date]"
-                      dataType="i4"
+                      dataType="dbTimeStamp"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[AFE Approval Date]"
@@ -2412,7 +2441,7 @@
                       name="Date AFE Entered" />
                     <externalMetadataColumn
                       refId="Package\Update Smartsheet (Netsuite)\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[AFE Approval Date]"
-                      dataType="i4"
+                      dataType="dbTimeStamp"
                       name="AFE Approval Date" />
                     <externalMetadataColumn
                       refId="Package\Update Smartsheet (Netsuite)\OLE DB Source.Outputs[OLE DB Source Output].ExternalColumns[Spend]"
@@ -2559,7 +2588,7 @@
                       name="Current Approval Level" />
                     <outputColumn
                       refId="Package\Update Smartsheet (Netsuite)\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[AFE Approval Date]"
-                      dataType="i4"
+                      dataType="dbTimeStamp"
                       lineageId="Package\Update Smartsheet (Netsuite)\OLE DB Source.Outputs[OLE DB Source Error Output].Columns[AFE Approval Date]"
                       name="AFE Approval Date" />
                     <outputColumn
@@ -2615,12 +2644,12 @@
                   dataType="System.String"
                   description="The object to write to the selected REST service."
                   expressionType="Notify"
-                  name="DestinationObject">Sheet - Copy of 2021 Capex Adjusted for Duplicates</property>
+                  name="DestinationObject">Sheet - 2021 Capex Adjusted for Duplicates</property>
                 <property
                   dataType="System.String"
                   description="The action to use when writing to the selected REST service."
                   expressionType="Notify"
-                  name="Action">Insert</property>
+                  name="Action">Update</property>
                 <property
                   dataType="System.Int32"
                   description="The number of records to send per request."
@@ -2638,7 +2667,7 @@
                 <property
                   dataType="System.String"
                   description="Details of the specific endpoint to use."
-                  name="EndpointDetails">{"EndpointInfo":{"FormatString":"/sheets/467517408864132/rows","Parameters":[],"IdField":"RowId","RequiredFields":{},"SupportsBatch":true,"Method":"POST"},"ObjectNamesAndDetails":{"Sheet - Copy of 2021 Capex Adjusted for Duplicates":{"ChildObjectNames":[]}}}</property>
+                  name="EndpointDetails">{"EndpointInfo":{"FormatString":"/sheets/3463146770851716/rows","Parameters":[],"IdField":"RowId","RequiredFields":{"Sheet - 2021 Capex Adjusted for Duplicates":["RowId"]},"SupportsBatch":true,"Method":"PUT"},"ObjectNamesAndDetails":{"Sheet - 2021 Capex Adjusted for Duplicates":{"ChildObjectNames":[]}}}</property>
               </properties>
               <connections>
                 <connection
@@ -2660,7 +2689,7 @@
                       dataType="System.String"
                       description="ObjectName"
                       expressionType="Notify"
-                      name="ObjectName">Sheet - Copy of 2021 Capex Adjusted for Duplicates</property>
+                      name="ObjectName">Sheet - 2021 Capex Adjusted for Duplicates</property>
                   </properties>
                   <inputColumns>
                     <inputColumn
@@ -2685,7 +2714,7 @@
                     </inputColumn>
                     <inputColumn
                       refId="Package\Update Smartsheet (Netsuite)\REST Destination.Inputs[Merge Join].Columns[AFE Approval Date]"
-                      cachedDataType="i4"
+                      cachedDataType="dbTimeStamp"
                       cachedName="AFE Approval Date"
                       externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\REST Destination.Inputs[Merge Join].ExternalColumns[AFE Approval Date]"
                       lineageId="Package\Update Smartsheet (Netsuite)\Merge Join.Outputs[Merge Join Output].Columns[AFE Approval Date]">
@@ -2919,6 +2948,25 @@
                       </properties>
                     </inputColumn>
                     <inputColumn
+                      refId="Package\Update Smartsheet (Netsuite)\REST Destination.Inputs[Merge Join].Columns[RowId]"
+                      cachedDataType="i8"
+                      cachedName="RowId"
+                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\REST Destination.Inputs[Merge Join].ExternalColumns[RowId]"
+                      lineageId="Package\Update Smartsheet (Netsuite)\Merge Join.Outputs[Merge Join Output].Columns[RowId]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The asynchronous error output column of this input column."
+                          name="AsyncErrorOutputColumnId">#{Package\Update Smartsheet (Netsuite)\REST Destination.Outputs[Error Output (Merge Join)].Columns[RowId]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The asynchronous default output column of this input column."
+                          name="AsyncDefaultOutputColumnId">#{Package\Update Smartsheet (Netsuite)\REST Destination.Outputs[Default Output (Merge Join)].Columns[RowId]}</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
                       refId="Package\Update Smartsheet (Netsuite)\REST Destination.Inputs[Merge Join].Columns[Spend]"
                       cachedDataType="wstr"
                       cachedLength="4000"
@@ -2982,6 +3030,7 @@
                       cachedDataType="wstr"
                       cachedLength="4000"
                       cachedName="Budget AOP"
+                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\REST Destination.Inputs[Merge Join].ExternalColumns[Budget, AOP]"
                       lineageId="Package\Update Smartsheet (Netsuite)\Merge Join.Outputs[Merge Join Output].Columns[Budget AOP]">
                       <properties>
                         <property
@@ -3000,6 +3049,7 @@
                       refId="Package\Update Smartsheet (Netsuite)\REST Destination.Inputs[Merge Join].Columns[Project Start Date]"
                       cachedDataType="dbTimeStamp"
                       cachedName="Project Start Date"
+                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\REST Destination.Inputs[Merge Join].ExternalColumns[Start Date]"
                       lineageId="Package\Update Smartsheet (Netsuite)\Merge Join.Outputs[Merge Join Output].Columns[Project Start Date]">
                       <properties>
                         <property
@@ -3018,6 +3068,7 @@
                       refId="Package\Update Smartsheet (Netsuite)\REST Destination.Inputs[Merge Join].Columns[Date AFE Entered]"
                       cachedDataType="dbTimeStamp"
                       cachedName="Date AFE Entered"
+                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\REST Destination.Inputs[Merge Join].ExternalColumns[AFE Entry Date]"
                       lineageId="Package\Update Smartsheet (Netsuite)\Merge Join.Outputs[Merge Join Output].Columns[Date AFE Entered]">
                       <properties>
                         <property
@@ -3037,6 +3088,7 @@
                       cachedDataType="wstr"
                       cachedLength="255"
                       cachedName="Current Approval Level"
+                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\REST Destination.Inputs[Merge Join].ExternalColumns[Current Approver]"
                       lineageId="Package\Update Smartsheet (Netsuite)\Merge Join.Outputs[Merge Join Output].Columns[Current Approval Level]">
                       <properties>
                         <property
@@ -3055,6 +3107,7 @@
                       refId="Package\Update Smartsheet (Netsuite)\REST Destination.Inputs[Merge Join].Columns[Complete]"
                       cachedDataType="bool"
                       cachedName="Complete"
+                      externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\REST Destination.Inputs[Merge Join].ExternalColumns[Complete? (NetSuite Field Checked)]"
                       lineageId="Package\Update Smartsheet (Netsuite)\Merge Join.Outputs[Merge Join Output].Columns[Complete]">
                       <properties>
                         <property
@@ -3067,24 +3120,6 @@
                           dataType="System.Int32"
                           description="The asynchronous default output column of this input column."
                           name="AsyncDefaultOutputColumnId">#{Package\Update Smartsheet (Netsuite)\REST Destination.Outputs[Default Output (Merge Join)].Columns[Complete]}</property>
-                      </properties>
-                    </inputColumn>
-                    <inputColumn
-                      refId="Package\Update Smartsheet (Netsuite)\REST Destination.Inputs[Merge Join].Columns[RowId]"
-                      cachedDataType="i8"
-                      cachedName="RowId"
-                      lineageId="Package\Update Smartsheet (Netsuite)\Merge Join.Outputs[Merge Join Output].Columns[RowId]">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The asynchronous error output column of this input column."
-                          name="AsyncErrorOutputColumnId">#{Package\Update Smartsheet (Netsuite)\REST Destination.Outputs[Error Output (Merge Join)].Columns[RowId]}</property>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="The asynchronous default output column of this input column."
-                          name="AsyncDefaultOutputColumnId">#{Package\Update Smartsheet (Netsuite)\REST Destination.Outputs[Default Output (Merge Join)].Columns[RowId]}</property>
                       </properties>
                     </inputColumn>
                   </inputColumns>
@@ -3386,8 +3421,7 @@
                     </externalMetadataColumn>
                     <externalMetadataColumn
                       refId="Package\Update Smartsheet (Netsuite)\REST Destination.Inputs[Merge Join].ExternalColumns[Complete? (NetSuite Field Checked)]"
-                      dataType="wstr"
-                      length="255"
+                      dataType="bool"
                       name="Complete? (NetSuite Field Checked)">
                       <properties>
                         <property
@@ -3802,6 +3836,25 @@
                       </properties>
                     </externalMetadataColumn>
                     <externalMetadataColumn
+                      refId="Package\Update Smartsheet (Netsuite)\REST Destination.Inputs[Merge Join].ExternalColumns[RowId]"
+                      dataType="i8"
+                      name="RowId">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Specifies if the column should be treated as an array of values."
+                          name="IsArray">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Specifies if the column should be treated as raw json."
+                          name="IsRaw">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Applies only to array fields. Specifies if the inner items of the array should be quoted."
+                          name="QuoteInnerItems">true</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
                       refId="Package\Update Smartsheet (Netsuite)\REST Destination.Inputs[Merge Join].ExternalColumns[RR]"
                       dataType="wstr"
                       length="255"
@@ -4043,7 +4096,7 @@
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
                       refId="Package\Update Smartsheet (Netsuite)\REST Destination.Outputs[Error Output (Merge Join)].Columns[AFE Approval Date]"
-                      dataType="i4"
+                      dataType="dbTimeStamp"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       lineageId="Package\Update Smartsheet (Netsuite)\REST Destination.Outputs[Error Output (Merge Join)].Columns[AFE Approval Date]"
@@ -4237,7 +4290,7 @@
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
                       refId="Package\Update Smartsheet (Netsuite)\REST Destination.Outputs[Default Output (Merge Join)].Columns[AFE Approval Date]"
-                      dataType="i4"
+                      dataType="dbTimeStamp"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       lineageId="Package\Update Smartsheet (Netsuite)\REST Destination.Outputs[Default Output (Merge Join)].Columns[AFE Approval Date]"
@@ -4422,7 +4475,7 @@
                   dataType="System.String"
                   description="The specific endpoint to use."
                   expressionType="Notify"
-                  name="Endpoint">Copy of 2021 Capex Adjusted for Duplicates</property>
+                  name="Endpoint">2021 Capex Adjusted for Duplicates</property>
                 <property
                   dataType="System.Int32"
                   description="The number of records to retrieve per request."
@@ -4446,7 +4499,7 @@
                 <property
                   dataType="System.String"
                   description="Details of the specific endpoint to use."
-                  name="EndpointDetails">{"EndpointInfo":{"OutputType":1,"FormatString":"/sheets/467517408864132","Parameters":[],"OptionalIncludeFields":{"attachments":"attachments","discussions":"discussions"},"SubObjectName":"Copy of 2021 Capex Adjusted for Duplicates","RequiredFields":{}},"ObjectNamesAndDetails":{"Sheet":{"ChildObjectNames":[]}}}</property>
+                  name="EndpointDetails">{"EndpointInfo":{"OutputType":1,"FormatString":"/sheets/3463146770851716","Parameters":[],"OptionalIncludeFields":{"attachments":"attachments","discussions":"discussions"},"SubObjectName":"2021 Capex Adjusted for Duplicates","RequiredFields":{}},"ObjectNamesAndDetails":{"Sheet":{"ChildObjectNames":[]}}}</property>
                 <property
                   dataType="System.String"
                   description="Special values to go into either the QS or relative path when using the selected endpoint."
@@ -4621,11 +4674,10 @@
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
                       refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Complete? (NetSuite Field Checked)]"
-                      dataType="wstr"
+                      dataType="bool"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Complete? (NetSuite Field Checked)]"
-                      length="255"
                       lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Complete? (NetSuite Field Checked)]"
                       name="Complete? (NetSuite Field Checked)"
                       truncationRowDisposition="FailComponent" />
@@ -5168,8 +5220,7 @@
                     </externalMetadataColumn>
                     <externalMetadataColumn
                       refId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].ExternalColumns[Complete? (NetSuite Field Checked)]"
-                      dataType="wstr"
-                      length="255"
+                      dataType="bool"
                       name="Complete? (NetSuite Field Checked)">
                       <properties>
                         <property
@@ -5773,7 +5824,7 @@
                     </inputColumn>
                     <inputColumn
                       refId="Package\Update Smartsheet (Netsuite)\Sort Netsuite.Inputs[Sort Input].Columns[AFE Approval Date]"
-                      cachedDataType="i4"
+                      cachedDataType="dbTimeStamp"
                       cachedName="AFE Approval Date"
                       lineageId="Package\Update Smartsheet (Netsuite)\OLE DB Source.Outputs[OLE DB Source Output].Columns[AFE Approval Date]">
                       <properties>
@@ -6104,7 +6155,7 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Update Smartsheet (Netsuite)\Sort Netsuite.Outputs[Sort Output].Columns[AFE Approval Date]"
-                      dataType="i4"
+                      dataType="dbTimeStamp"
                       lineageId="Package\Update Smartsheet (Netsuite)\Sort Netsuite.Outputs[Sort Output].Columns[AFE Approval Date]"
                       name="AFE Approval Date">
                       <properties>
@@ -6741,8 +6792,7 @@
                     </inputColumn>
                     <inputColumn
                       refId="Package\Update Smartsheet (Netsuite)\Sort Smartsheet.Inputs[Sort Input].Columns[Complete? (NetSuite Field Checked)]"
-                      cachedDataType="wstr"
-                      cachedLength="255"
+                      cachedDataType="bool"
                       cachedName="Complete? (NetSuite Field Checked)"
                       lineageId="Package\Update Smartsheet (Netsuite)\Smartsheet Source.Outputs[Sheet].Columns[Complete? (NetSuite Field Checked)]">
                       <properties>
@@ -7153,8 +7203,7 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Update Smartsheet (Netsuite)\Sort Smartsheet.Outputs[Sort Output].Columns[Complete? (NetSuite Field Checked)]"
-                      dataType="wstr"
-                      length="255"
+                      dataType="bool"
                       lineageId="Package\Update Smartsheet (Netsuite)\Sort Smartsheet.Outputs[Sort Output].Columns[Complete? (NetSuite Field Checked)]"
                       name="Complete? (NetSuite Field Checked)">
                       <properties>
@@ -7256,10 +7305,10 @@
         <NodeLayout
           Size="224,42"
           Id="Package\Update Smartsheet (Netsuite)"
-          TopLeft="5.50000000000003,209.5" />
+          TopLeft="6.50000000000003,209.5" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="117.5,149.5">
+          TopLeft="118,149.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -7308,7 +7357,7 @@
     design-time-name="Package\Insert Netsuite Project">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="177,42"
           Id="Package\Insert Netsuite Project\OLE DB Destination"
@@ -7336,9 +7385,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-25.0951171875,20.62841796875,50.190234375,11.2431640625"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -7417,9 +7464,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-34.2888997395834,59.5438335809807,36.4111328125,9.6025390625"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -7453,9 +7498,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="52.2688606770835,49.1686478454681,41.1289453125,9.5732421875"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -7489,9 +7532,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-13.06447265625,35,41.1289453125,9.5732421875"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -7525,9 +7566,7 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-13.95556640625,26.25,36.4111328125,9.6025390625"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -7562,7 +7601,7 @@
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="5.6005859375,38.5,36.298828125,9.5732421875"
+              BoundingBox="15.75,38.5,16,16"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
