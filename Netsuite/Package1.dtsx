@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="4/13/2021 11:44:53 AM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="PRDARCENTDB"
+  DTS:CreatorName="PRDARCENTDB\mandres"
+  DTS:DTSID="{E3D222CA-9CE0-4756-984B-8CF9D48696E2}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="15.0.2000.157"
+  DTS:LocaleID="1033"
+  DTS:ObjectName="Package1"
+  DTS:PackageType="5"
+  DTS:ProtectionLevel="2"
+  DTS:VersionGUID="{58798075-6FD5-4D64-BE17-46329249071C}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:Variables />
+  <DTS:Executables />
+</DTS:Executable>

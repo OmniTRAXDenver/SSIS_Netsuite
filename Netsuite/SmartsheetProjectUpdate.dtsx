@@ -7,13 +7,13 @@
   DTS:CreatorName="BROE\mandres"
   DTS:DTSID="{F37D20AC-E8C9-43A7-A3FB-F4D1A5439F0F}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="15.0.2000.93"
+  DTS:LastModifiedProductVersion="15.0.2000.157"
   DTS:LocaleID="1033"
   DTS:ObjectName="SmartsheetProjectUpdate"
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
-  DTS:VersionBuild="131"
-  DTS:VersionGUID="{625140F4-7B5D-47A5-B51A-ED6BCF5A31D7}">
+  DTS:VersionBuild="132"
+  DTS:VersionGUID="{9048F13E-738F-4C69-9577-FDA58B5744B9}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -24,25 +24,26 @@
       DTS:ObjectName="NetSuite Connection Manager">
       <DTS:ObjectData>
         <ConnectionManager
-          ConnectionString="ServerUrl=https://webservices.netsuite.com/services;EmailAddress=;AccountId=1125535;ConsumerKey=0e374efe63be8387e9256a645297b560dd56a269742ada454ace315109512927;TokenId=e26b7ea9de8987326ea3674fb2f105cd0d1b822854d6641a26fb7b3a1d3dc790;RoleId=;ApplicationId=;UserTimezone=&quot;Mountain Standard Time&quot;;Timeout=120;RetryOnIntermittentErrors=True;MaxConcurrentRequests=1;AuthenticationMode=Token;ProxyMode=NoProxy;ProxyUsername=;ProxyServer=;ProxyServerPort=0">
+          ConnectionString="ServerUrl=https://webservices.netsuite.com/services;EmailAddress=;AccountId=1125535;ConsumerKey=0e374efe63be8387e9256a645297b560dd56a269742ada454ace315109512927;TokenId=e26b7ea9de8987326ea3674fb2f105cd0d1b822854d6641a26fb7b3a1d3dc790;RoleId=;ApplicationId=;UserTimezone=&quot;Mountain Standard Time&quot;;Timeout=120;RetryOnIntermittentErrors=True;MaxConcurrentRequests=1;AuthenticationMode=Token;ProxyMode=NoProxy;ProxyUsername=;ProxyServer=;ProxyServerPort=0"
+          ConnectByProxy="False">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="uwoPa4u0vIc="
-            IV="ka5G7gqJxX4d7RnALyR/bg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="AK6nK9KjgK4="
+            IV="abTqJ/ObJEwCtRKSHV3FTw==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>ka5G7gqJxX4d7RnALyR/bpF7D5Bx5NDkoS1RyTuVZKWFHY+05jU3ezAf10BxJZILS6ZSY9S/KyW9+eHUw7n2mNgp+6mxT3rs+bT7IplvnG4t10IYqOnyRr0h3VsFL3oiiHc6v93HU+60Mv0Nv5onYtvhb+Lq7XF3rpgLdMj1SIXENpizqm40lmM3ZuKyiZVGZj7OYj85asFGTllKWYC8ONI2Ieb7oNTpgHELdY+0PUk=</CipherValue>
+              <CipherValue>abTqJ/ObJEwCtRKSHV3FT7/G+1pyvd1YW1ZJMUhIk7ijOAQT/VYnTfLmpFeRSSNgX4FLwS5BLfeOQY8YStN8vDqG/3TqIm/mAeQLIDwQUBYZYxnbcIIgZa+OBtoEeGFQhrwQTub5tTLGdbvH6/fBQ+ycCHSqv8TB4OTfkJfOmRT1b/0uirUwPaNwSlnY8gI19TvXYClOcY9NzKBEneQHgbrGnHCkfE9oouExNc5jDcg=</CipherValue>
             </CipherData>
           </EncryptedData>
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="2oyYvQVtvSg="
-            IV="9hHjLtINpA4jWGYxxxYwjw==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="8psgkEtO/Ew="
+            IV="vfD4cdn1o1/jmpeA+S4M8g==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>9hHjLtINpA4jWGYxxxYwj1IjZo3gWO0F6VRvnAOdf6zovQZFeacs12YvZh1kXHAW60Uj92T1j/WcxjLDbQAVY1r8D4/AE0kmJc2KTfLdtMDd2NxzsVtivjAuerkniUfDVWHN0yWIeYrhZ85PGjloJlDIQ/zQ970jVvm24VPwcsowJTIJT4yFipyT4Ll6l7roO7Ihz9fX5ndFLtw/QfyIC4z+XEohdJMHbAxDaXcX+3s=</CipherValue>
+              <CipherValue>vfD4cdn1o1/jmpeA+S4M8hIhq4ZLK38USmcDwGil1ec3W8Yu31yCdal++ayVoLc86sVz0vI08U/OhALPT037vq0s8H5HzU+tidGKeVrUxjumFBi4iB/f3pzQ3SO73YXUqilgJv4XpJB5kwP3KD40+fXXvKU0xXOE7FuiWFcmHIWbIQYrAtzU1DwV1/vwWc392Gff6umKdGNBZ3AbRIUKJYHfG1Yc1RWGqqqr5XcQOAA=</CipherValue>
             </CipherData>
           </EncryptedData>
         </ConnectionManager>
@@ -58,12 +59,12 @@
           DTS:ConnectionString="Data Source=devomni-dbs.database.windows.net;User ID=devomnidbuser;Initial Catalog=devOmniDW;Provider=SQLNCLI11.1;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="SMkaztzkiXA="
-            IV="XlVQCI4LUAGbCxeG8ImASw==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="2WKlHg2h57g="
+            IV="/AhY+ZWPNh3EB2ekC9ds8Q==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>XlVQCI4LUAGbCxeG8ImAS7ciExXY9Ro7A3J0QKCx+t0tjMus9qeN2LXZC3q0WIR/WoYUTUJL+sqMoZ2uLdP81gpxljdMFDctRoN2PEPZyxlJSGXJUJLVi3u+dL8lhPADZzOYvsRlJX7BGTiiGr/TbOQUfirPFJ3g83C7ZVQVgJpKcZcVNMMp8lAnVJ6wjhnG</CipherValue>
+              <CipherValue>/AhY+ZWPNh3EB2ekC9ds8TppKC2okUHNjzatLaiE5Ds18LOV2aJasjJjML7BDKp7rD6QsJ62cmcmFbYKmUgSB2+Wu/oKpdbn2XmBihCnsf/S45vvifOu3wDoDrYt96lN1T+dI26tIHyncq0p/G6CwwV7HKJDeZ9Jd05qIKpNr0dMTJ82difJW0kGfL3+Q3iS</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -76,15 +77,16 @@
       DTS:ObjectName="Smartsheet - REST Connection Manager">
       <DTS:ObjectData>
         <ConnectionManager
-          ConnectionString="ServiceName=Smartsheet;PathToTokenFile=;ApiThrottleRate=0;AuthenticationMode=ApiToken;InstanceType=Default;ProxyMode=NoProxy;ProxyUsername=;ProxyServer=;ProxyServerPort=0;ServiceTimeout=120;RetryOnIntermittentErrors=True;IgnoreCertificateErrors=False">
+          ConnectionString="ServiceName=Smartsheet;PathToTokenFile=;ApiThrottleRate=0;AuthenticationMode=ApiToken;InstanceType=Default;ProxyMode=NoProxy;ProxyUsername=;ProxyServer=;ProxyServerPort=0;ServiceTimeout=120;RetryOnIntermittentErrors=True;IgnoreCertificateErrors=False"
+          ConnectByProxy="False">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="34NdKMPyWKk="
-            IV="ZPfb/PaoYpG/iu3RVquKAg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="2L/pM8fnEsc="
+            IV="NBQaSvaN7JRUsBf7gFKOjg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>ZPfb/PaoYpG/iu3RVquKApwhnwu+CN9m1GkW+QHvzNz5FVTqnaCmOofbCrdGyTyfSL/YtV0DIltTuSNRHf4SdRf483sjb4OPZrzVScWf90uJu2VDCdJcockF5O3k8Neu/J2pTr/OXx1qSewo33WJZ9dHQbFcgQv1fQi0hJfHtfE=</CipherValue>
+              <CipherValue>NBQaSvaN7JRUsBf7gFKOjsfmy9QEoVXXAHRRJ7vkJPgIkVj+DluvOinF+C56f59+0K2OHnCxIXnaFNjm4VfEt135CAVSeG3rF96dOigkmlDVughGxfjyk+zNmnQqPZv6iR8hTscAFM5/TLyxvojTpC5prq8T+b5rh5+6D1/zF1k=</CipherValue>
             </CipherData>
           </EncryptedData>
         </ConnectionManager>

@@ -7,13 +7,13 @@
   DTS:CreatorName="BROE\mandres"
   DTS:DTSID="{AF524AE5-90A4-4330-B0B0-E7AABF2E81FC}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="15.0.2000.93"
+  DTS:LastModifiedProductVersion="15.0.2000.157"
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
-  DTS:VersionBuild="34"
-  DTS:VersionGUID="{EA83E3A8-A0FA-44C9-8EDF-BAFCA3BBBC6A}">
+  DTS:VersionBuild="37"
+  DTS:VersionGUID="{9A9EADD9-1132-4D27-945F-A8F5AEB866E4}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -24,25 +24,26 @@
       DTS:ObjectName="NetSuite Connection Manager">
       <DTS:ObjectData>
         <ConnectionManager
-          ConnectionString="ServerUrl=https://webservices.netsuite.com/services;EmailAddress=;AccountId=1125535;ConsumerKey=0e374efe63be8387e9256a645297b560dd56a269742ada454ace315109512927;TokenId=e26b7ea9de8987326ea3674fb2f105cd0d1b822854d6641a26fb7b3a1d3dc790;RoleId=;ApplicationId=;UserTimezone=&quot;Mountain Standard Time&quot;;Timeout=120;RetryOnIntermittentErrors=True;MaxConcurrentRequests=1;AuthenticationMode=Token;ProxyMode=NoProxy;ProxyUsername=;ProxyServer=;ProxyServerPort=0">
+          ConnectionString="ServerUrl=https://webservices.netsuite.com/services;EmailAddress=;AccountId=1125535;ConsumerKey=0e374efe63be8387e9256a645297b560dd56a269742ada454ace315109512927;TokenId=e26b7ea9de8987326ea3674fb2f105cd0d1b822854d6641a26fb7b3a1d3dc790;RoleId=;ApplicationId=;UserTimezone=&quot;Mountain Standard Time&quot;;Timeout=120;RetryOnIntermittentErrors=True;MaxConcurrentRequests=1;AuthenticationMode=Token;ProxyMode=NoProxy;ProxyUsername=;ProxyServer=;ProxyServerPort=0"
+          ConnectByProxy="False">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="/bnjcKF357w="
-            IV="YSDLt9eZLknZ7Ghne48VJQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="r7kk/xgb5Q0="
+            IV="GVkchc/JF879Zcu1eRzRIw==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>YSDLt9eZLknZ7Ghne48VJSyZvaxE3AxVC0heTB2RGzNX71+i67VvbfyCKqOcUREkvyBrGdZJMnGHJMgEX8XvjQnyLHv4xdn5keICyxJajNkufWAGAKuOJ7HiazytBlN4kNQHd2wEaMuCLapBDf0IlHr0upR52XPll+yBYQEq8E3OEHXFFyCJ3QRpOj8jtjaluWrIJ6WEGplpv2DuBYzY1oG0xDXuko0hZ9baiayKBA4=</CipherValue>
+              <CipherValue>GVkchc/JF879Zcu1eRzRI/hJua+OtOfkAGwpA7glFm0+R/swhOojG3wiyN4h4zOBAFguhXaP35SxRxqylrqcuVlBuukwOCC06ROl59FVGhtbvr+3Mo+MKVIODqLVu2+KIDRigbP2P1XZpH0N5KcW8xLmvdfwi7SkpwB4/2XPU7Dbsx6YMwNTxLIPokoPU1ZQ6cQ8VTtSXzbtHB0RAdW+/NEnyvYOy9enVNV0mXoFx1w=</CipherValue>
             </CipherData>
           </EncryptedData>
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="0gZ8s4wWDKI="
-            IV="gTJfMvK/lpzrEYG4QqDZ4w==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="sjdkcDnJao8="
+            IV="9KHs6KG9MaJABT+R/z+gpA==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>gTJfMvK/lpzrEYG4QqDZ4+Do3j/ih9Sz5+P/eQ31fh5uTgSf23bk2ZQNlep1JCQz/egtAz1+G7huGDgKB6N3VaA/1GqZ2jd2e1Ph3Hyt2j6qkSWLIga9GZIYcpn3IU0pkXeA7obmcbch8jiLm+T801H32j6N7YpUELsEUMW4ppfaAds9H/XAmQnYKBfDUv/DQKE1QhGiCcV8alwh1lBy+0fKwnsXtxE6tAKjwQG7y5s=</CipherValue>
+              <CipherValue>9KHs6KG9MaJABT+R/z+gpBxyW88BFlrgd88VnjNCG2KfyY/628V6tnr0KQhyOc6/sfMY+iLlLMSELOv2u2x2czUhBBHhjrbpkwPjoVthLVYLxu1SEWHIzFU0v70h6c2zrM5j6xiTjXf2HK8kUivj3G56e2pGPJpTZ5JLV6f+nN3hCgZQoDZNK+vv4JFzKByr0ug5vkCkfBcy2U0Phcc6A2tvDZL8wqmmz+GEMO4gjzo=</CipherValue>
             </CipherData>
           </EncryptedData>
         </ConnectionManager>
@@ -58,12 +59,12 @@
           DTS:ConnectionString="Data Source=devomni-dbs.database.windows.net;User ID=devomnidbuser;Initial Catalog=devOmniDW;Provider=SQLNCLI11.1;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="MYEEc1qcHAY="
-            IV="LAnB67Mr48s6PW7iHJr4lg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="zrR9jdpWUhI="
+            IV="IZg9zkyiKx+4DHWgM6wGIg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>LAnB67Mr48s6PW7iHJr4lvPhLHANREFJ8LiX7m7TmggN8XX8ktR2bhy16YUCW1KmnkTAGLfP4Lhz4Z81VtNwsUDVU0tDIJoLelHm0YPULFG0Ztp/RcsUj8MbsSsdlYIimVkRkxY0m48c42sxUDn3SaXC8hfsE8Auq4EOV3vbGhTjts/2DqnMoO/HTrzdlUeb</CipherValue>
+              <CipherValue>IZg9zkyiKx+4DHWgM6wGIl2Y7LC1XwesoxOJ8WldzMW52AQ9RgFg10A6TwRkgYzUmklUp7jliuEawoE1jzpSMPpZiSWjuGOcpbsuFKeku00AHDJAKROy/jThrY+bfYBuMMC1eNDctrR7wlbb+ULvKHXCqzOeJCn2cfeOCyYDsnFjcSEOF6C/HzgQuigkHOsi</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -80,7 +81,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="last60Days">
       <DTS:VariableValue
-        DTS:DataType="7">1/21/2021 8:57:05 AM</DTS:VariableValue>
+        DTS:DataType="7">2/8/2021 10:25:25 AM</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -91,7 +92,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="last60DaysSTR">
       <DTS:VariableValue
-        DTS:DataType="8">2021-01-21T08:57:05</DTS:VariableValue>
+        DTS:DataType="8">2021-02-08T10:25:25</DTS:VariableValue>
     </DTS:Variable>
   </DTS:Variables>
   <DTS:Executables>
@@ -158,7 +159,7 @@
     &lt;searchValue xmlns="urn:core_2020_1.platform.webservices.netsuite.com"&gt;Invoice&lt;/searchValue&gt;
   &lt;/recordType&gt;
   &lt;dueDate operator="after" xmlns="urn:common_2020_1.platform.webservices.netsuite.com"&gt;
-    &lt;searchValue xmlns="urn:core_2020_1.platform.webservices.netsuite.com"&gt;2021-01-21T08:57:05&lt;/searchValue&gt;
+    &lt;searchValue xmlns="urn:core_2020_1.platform.webservices.netsuite.com"&gt;2021-02-08T10:25:25&lt;/searchValue&gt;
   &lt;/dueDate&gt;
 &lt;/TransactionSearchBasic&gt;</property>
                 <property

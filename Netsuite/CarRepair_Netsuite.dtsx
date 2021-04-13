@@ -7,13 +7,13 @@
   DTS:CreatorName="BROE\mandres"
   DTS:DTSID="{0E31B3DE-F7B7-4B21-9D8D-89062CD05F3D}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="15.0.2000.93"
+  DTS:LastModifiedProductVersion="15.0.2000.157"
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
   DTS:ProtectionLevel="2"
-  DTS:VersionBuild="85"
-  DTS:VersionGUID="{6C75A8AA-3E76-4854-8BB5-666AE5F23F6B}">
+  DTS:VersionBuild="91"
+  DTS:VersionGUID="{A3A74903-E9CA-495E-ACB5-CBB14DCCDE19}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -24,25 +24,26 @@
       DTS:ObjectName="NetSuite Connection Manager">
       <DTS:ObjectData>
         <ConnectionManager
-          ConnectionString="ServerUrl=https://webservices.netsuite.com/services;EmailAddress=;AccountId=1125535_SB1;ConsumerKey=6d604b1c985c973fccaa6fb524d127a4aade5ab38e11d58a9969ef65f9928984;TokenId=72a52b920f7b79a843fc073e68cc000e0ce868accdcd17bf421d1af23a80d302;RoleId=;ApplicationId=;UserTimezone=&quot;Mountain Standard Time&quot;;Timeout=120;RetryOnIntermittentErrors=True;MaxConcurrentRequests=1;AuthenticationMode=Token;ProxyMode=NoProxy;ProxyUsername=;ProxyServer=;ProxyServerPort=0">
+          ConnectionString="ServerUrl=https://webservices.netsuite.com/services;EmailAddress=;AccountId=1125535_SB1;ConsumerKey=6d604b1c985c973fccaa6fb524d127a4aade5ab38e11d58a9969ef65f9928984;TokenId=72a52b920f7b79a843fc073e68cc000e0ce868accdcd17bf421d1af23a80d302;RoleId=;ApplicationId=;UserTimezone=&quot;Mountain Standard Time&quot;;Timeout=120;RetryOnIntermittentErrors=True;MaxConcurrentRequests=1;AuthenticationMode=Token;ProxyMode=NoProxy;ProxyUsername=;ProxyServer=;ProxyServerPort=0"
+          ConnectByProxy="False">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="IQ8/oP4BZ/E="
-            IV="BtFwvT0G7RPWUnmKLsQXbw==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="rSVh17f4NDE="
+            IV="tCz/xW7i74ExdaMu3PS6iQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>BtFwvT0G7RPWUnmKLsQXbyU9dqC/4q5xDsLJwJszGL1Fr/B+NJwjQWqfRMP+Ecz9CA1J9b5v7JyVKgcuYIpre8Fu6ycMWXkDmmo6S+MnMJXi1/pK2cz8UMISExlYw7SqR/iHKpzxh2omOtIX3DHxVcH1YYzcEuDcC+E8wfXu37n+Lb9sX94kV9TeNhokTdHavNMtERZ4XGaXyPfqfmsFRkdXV5DsAcyRTVoSRZfinEk=</CipherValue>
+              <CipherValue>tCz/xW7i74ExdaMu3PS6iVGcKMJ6tuDMn3uomZUCEqMv67vVD6RQa248Tjmnlt0ROMiq0zeG0h5TrhLzB5Y709SYf/lXzDKY2kqJQSX1N9HDjLBb7/zgsT7YZogDjPej8IArR7YUPNfPADrVwxkXK6ZMwYT180XjrknnxsHO65IT8IUgHRjzfA9FHOs/gYHU4Ksr7ONHjwmS7W5JgtQMDN0QIlyQ8rG7AqEnexStTGQ=</CipherValue>
             </CipherData>
           </EncryptedData>
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="mAFaf4F3oZ0="
-            IV="LUG8NruFEWO3bfnsBqSvPQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="rCDOjIE6bs4="
+            IV="A7EWmNP7kc5BMiMOSmNckg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>LUG8NruFEWO3bfnsBqSvPZpudZJdwgQC9fzECk93pP3yHNGM1454yZAK4OPMmV9w/uVjE9NKiW/YLIGLPtPksvgJXeHxtlSuvOdRvtdm60z6TUb7HC4shdOsNTWx2iG4EpvBmHyhk76TPTfj31nzOGYyZtoEAVv9rRFU0w/1eyMx1LLv3pKCOaNs1yfHaShaUJSztPg548aZD1jYtK10mvuTbeMwaXDi1OwUR2TdYv4=</CipherValue>
+              <CipherValue>A7EWmNP7kc5BMiMOSmNckjTvqVv9dVoUIWhdZobKovcxc4yFEikALEz1X5d7ZXau4c0EIukCkq3mU1W2tjiF9gAupyjYpCtcKk7oFhiqICfAhC5FzPDR3ltFtBh/v6EIAgyqwkF6Kk9TA+EXr2lmW/yiFiZ2f3dYZnlDm3IIcvQHdFv165KSznR1o5RVz85XRpwogjKAcA9gcQlA914nKUg+/Gl6mqMlNsnq31/TyUs=</CipherValue>
             </CipherData>
           </EncryptedData>
         </ConnectionManager>
@@ -55,15 +56,15 @@
       DTS:ObjectName="omniDW">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=devomni-dbs.database.windows.net;User ID=devomnidbuser;Initial Catalog=devOmniDW;Provider=SQLNCLI11.1;Auto Translate=False;">
+          DTS:ConnectionString="Data Source=devomni-dbs.database.windows.net;User ID=devomnidbuser;Initial Catalog=devOmniDW;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <EncryptedData
             Type="http://www.w3.org/2001/04/xmlenc#Element"
-            Salt="4ygAdSkSEn0="
-            IV="CicLt2iNVvEV4r6Q4Z1/kg==" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            Salt="f4dNJunBY4k="
+            IV="/XwxZSUtpb50PhibwVbywQ==" xmlns="http://www.w3.org/2001/04/xmlenc#">
             <EncryptionMethod
               Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
             <CipherData>
-              <CipherValue>CicLt2iNVvEV4r6Q4Z1/kpL8TdzceTmQo1YxwtrLUot/wY8e/ytpX7p5bSz2sW3RfREBKfOyvVdAuB16AX32THqqSoJIvYi8b8x7wnwP1M6zGtAE//H8sRykN/UdFvWA7M6GwmcoGcv4WiME+p83v2oz96H/AAUvSZXm0tTHYK6J0y6EMlsEGXp9uAa2gaIW</CipherValue>
+              <CipherValue>/XwxZSUtpb50PhibwVbywT47A8Pun8I+gP6LMgFOyJMtpcCDqW6uRiAdokIOo+2/18Q8RPzqXzURez8XFW2rhC9r7FVQ3BBHurHq2YfDlN+gMxXyFyQU+aNjv/jUZSh0cCCLlyQ5KYGi7xmsviUFpBaGTgB+6neq0Gq+AYoSoGAB74FMVqDAXv3+7a7gzWO7</CipherValue>
             </CipherData>
           </EncryptedData>
         </DTS:ConnectionManager>
@@ -358,13 +359,13 @@
                   dataType="System.Boolean"
                   description="Determines if unspecified child items should be removed when updating records."
                   expressionType="Notify"
-                  name="ReplaceAllChildListItems">true</property>
+                  name="ReplaceAllChildListItems">false</property>
                 <property
                   dataType="System.Int32"
                   description="Determines if scripts should be run and triggers should be executed after writing data."
                   expressionType="Notify"
                   name="RunSuiteScriptAndWorkflowTriggers"
-                  typeConverter="KingswaySoft.IntegrationToolkit.NetSuite.RunSuiteScriptAndTriggers">1</property>
+                  typeConverter="KingswaySoft.IntegrationToolkit.NetSuite.RunSuiteScriptAndTriggers">0</property>
                 <property
                   dataType="System.String"
                   name="UserComponentTypeName">KingswaySoft.IntegrationToolkit.NetSuite.NetSuiteDestinationComponent</property>
@@ -407,7 +408,9 @@
                       lineageId="Package\Data Flow Task\Sort Parent.Outputs[Sort Output].Columns[tranId]" />
                     <inputColumn
                       refId="Package\Data Flow Task\NetSuite Destination.Inputs[Primary Input].Columns[entity]"
-                      cachedDataType="i4"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="30"
                       cachedName="entity"
                       externalMetadataColumnId="Package\Data Flow Task\NetSuite Destination.Inputs[Primary Input].ExternalColumns[entity.internalId]"
                       lineageId="Package\Data Flow Task\Sort Parent.Outputs[Sort Output].Columns[entity]" />
@@ -421,25 +424,33 @@
                       lineageId="Package\Data Flow Task\Sort Parent.Outputs[Sort Output].Columns[postingPeriod]" />
                     <inputColumn
                       refId="Package\Data Flow Task\NetSuite Destination.Inputs[Primary Input].Columns[class]"
-                      cachedDataType="i4"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="30"
                       cachedName="class"
                       externalMetadataColumnId="Package\Data Flow Task\NetSuite Destination.Inputs[Primary Input].ExternalColumns[class.internalId]"
                       lineageId="Package\Data Flow Task\Sort Parent.Outputs[Sort Output].Columns[class]" />
                     <inputColumn
                       refId="Package\Data Flow Task\NetSuite Destination.Inputs[Primary Input].Columns[currency]"
-                      cachedDataType="i4"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="1"
                       cachedName="currency"
                       externalMetadataColumnId="Package\Data Flow Task\NetSuite Destination.Inputs[Primary Input].ExternalColumns[currency.internalId]"
                       lineageId="Package\Data Flow Task\Sort Parent.Outputs[Sort Output].Columns[currency]" />
                     <inputColumn
                       refId="Package\Data Flow Task\NetSuite Destination.Inputs[Primary Input].Columns[custbody_omni_class_restricted]"
-                      cachedDataType="i4"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="30"
                       cachedName="custbody_omni_class_restricted"
                       externalMetadataColumnId="Package\Data Flow Task\NetSuite Destination.Inputs[Primary Input].ExternalColumns[_custbody_omni_class_restricted]"
                       lineageId="Package\Data Flow Task\Sort Parent.Outputs[Sort Output].Columns[custbody_omni_class_restricted]" />
                     <inputColumn
                       refId="Package\Data Flow Task\NetSuite Destination.Inputs[Primary Input].Columns[custbody_omni_operational_id]"
-                      cachedDataType="i4"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="30"
                       cachedName="custbody_omni_operational_id"
                       externalMetadataColumnId="Package\Data Flow Task\NetSuite Destination.Inputs[Primary Input].ExternalColumns[custbody_omni_operational_id]"
                       lineageId="Package\Data Flow Task\Sort Parent.Outputs[Sort Output].Columns[custbody_omni_operational_id]" />
@@ -5117,7 +5128,9 @@
                       lineageId="Package\Data Flow Task\Sort Child.Outputs[Sort Output].Columns[quantity]" />
                     <inputColumn
                       refId="Package\Data Flow Task\NetSuite Destination.Inputs[Secondary Input 1].Columns[class]"
-                      cachedDataType="i4"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="30"
                       cachedName="class"
                       externalMetadataColumnId="Package\Data Flow Task\NetSuite Destination.Inputs[Secondary Input 1].ExternalColumns[class.internalId]"
                       lineageId="Package\Data Flow Task\Sort Child.Outputs[Sort Output].Columns[class]" />
@@ -5130,13 +5143,17 @@
                       lineageId="Package\Data Flow Task\Sort Child.Outputs[Sort Output].Columns[_linkId]" />
                     <inputColumn
                       refId="Package\Data Flow Task\NetSuite Destination.Inputs[Secondary Input 1].Columns[item]"
-                      cachedDataType="i4"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="4"
                       cachedName="item"
                       externalMetadataColumnId="Package\Data Flow Task\NetSuite Destination.Inputs[Secondary Input 1].ExternalColumns[item.internalId]"
                       lineageId="Package\Data Flow Task\Sort Child.Outputs[Sort Output].Columns[item]" />
                     <inputColumn
                       refId="Package\Data Flow Task\NetSuite Destination.Inputs[Secondary Input 1].Columns[custcol_omni_subdivision_restricted]"
-                      cachedDataType="i4"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="30"
                       cachedName="custcol_omni_subdivision_restricted"
                       externalMetadataColumnId="Package\Data Flow Task\NetSuite Destination.Inputs[Secondary Input 1].ExternalColumns[custcol_omni_subdivision_restricted]"
                       lineageId="Package\Data Flow Task\Sort Child.Outputs[Sort Output].Columns[custcol_omni_subdivision_restricted]" />
@@ -7017,7 +7034,9 @@
                       name="externalId" />
                     <outputColumn
                       refId="Package\Data Flow Task\NetSuite Destination.Outputs[Error Output].Columns[entity]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
+                      length="30"
                       lineageId="Package\Data Flow Task\NetSuite Destination.Outputs[Error Output].Columns[entity]"
                       name="entity" />
                     <outputColumn
@@ -7040,22 +7059,30 @@
                       name="postingPeriod" />
                     <outputColumn
                       refId="Package\Data Flow Task\NetSuite Destination.Outputs[Error Output].Columns[class]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
+                      length="30"
                       lineageId="Package\Data Flow Task\NetSuite Destination.Outputs[Error Output].Columns[class]"
                       name="class" />
                     <outputColumn
                       refId="Package\Data Flow Task\NetSuite Destination.Outputs[Error Output].Columns[currency]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
+                      length="1"
                       lineageId="Package\Data Flow Task\NetSuite Destination.Outputs[Error Output].Columns[currency]"
                       name="currency" />
                     <outputColumn
                       refId="Package\Data Flow Task\NetSuite Destination.Outputs[Error Output].Columns[custbody_omni_class_restricted]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
+                      length="30"
                       lineageId="Package\Data Flow Task\NetSuite Destination.Outputs[Error Output].Columns[custbody_omni_class_restricted]"
                       name="custbody_omni_class_restricted" />
                     <outputColumn
                       refId="Package\Data Flow Task\NetSuite Destination.Outputs[Error Output].Columns[custbody_omni_operational_id]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
+                      length="30"
                       lineageId="Package\Data Flow Task\NetSuite Destination.Outputs[Error Output].Columns[custbody_omni_operational_id]"
                       name="custbody_omni_operational_id" />
                     <outputColumn
@@ -7130,7 +7157,9 @@
                       name="externalId" />
                     <outputColumn
                       refId="Package\Data Flow Task\NetSuite Destination.Outputs[Default Output].Columns[entity]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
+                      length="30"
                       lineageId="Package\Data Flow Task\NetSuite Destination.Outputs[Default Output].Columns[entity]"
                       name="entity" />
                     <outputColumn
@@ -7153,22 +7182,30 @@
                       name="postingPeriod" />
                     <outputColumn
                       refId="Package\Data Flow Task\NetSuite Destination.Outputs[Default Output].Columns[class]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
+                      length="30"
                       lineageId="Package\Data Flow Task\NetSuite Destination.Outputs[Default Output].Columns[class]"
                       name="class" />
                     <outputColumn
                       refId="Package\Data Flow Task\NetSuite Destination.Outputs[Default Output].Columns[currency]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
+                      length="1"
                       lineageId="Package\Data Flow Task\NetSuite Destination.Outputs[Default Output].Columns[currency]"
                       name="currency" />
                     <outputColumn
                       refId="Package\Data Flow Task\NetSuite Destination.Outputs[Default Output].Columns[custbody_omni_class_restricted]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
+                      length="30"
                       lineageId="Package\Data Flow Task\NetSuite Destination.Outputs[Default Output].Columns[custbody_omni_class_restricted]"
                       name="custbody_omni_class_restricted" />
                     <outputColumn
                       refId="Package\Data Flow Task\NetSuite Destination.Outputs[Default Output].Columns[custbody_omni_operational_id]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
+                      length="30"
                       lineageId="Package\Data Flow Task\NetSuite Destination.Outputs[Default Output].Columns[custbody_omni_operational_id]"
                       name="custbody_omni_operational_id" />
                     <outputColumn
@@ -7237,12 +7274,16 @@
                   <outputColumns>
                     <outputColumn
                       refId="Package\Data Flow Task\NetSuite Destination.Outputs[Secondary Output 1].Columns[class]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
+                      length="30"
                       lineageId="Package\Data Flow Task\NetSuite Destination.Outputs[Secondary Output 1].Columns[class]"
                       name="class" />
                     <outputColumn
                       refId="Package\Data Flow Task\NetSuite Destination.Outputs[Secondary Output 1].Columns[item]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
+                      length="4"
                       lineageId="Package\Data Flow Task\NetSuite Destination.Outputs[Secondary Output 1].Columns[item]"
                       name="item" />
                     <outputColumn
@@ -7268,7 +7309,9 @@
                       name="carRepairId" />
                     <outputColumn
                       refId="Package\Data Flow Task\NetSuite Destination.Outputs[Secondary Output 1].Columns[custcol_omni_subdivision_restricted]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
+                      length="30"
                       lineageId="Package\Data Flow Task\NetSuite Destination.Outputs[Secondary Output 1].Columns[custcol_omni_subdivision_restricted]"
                       name="custcol_omni_subdivision_restricted" />
                     <outputColumn
@@ -7312,12 +7355,16 @@
                       name="ErrorMessage" />
                     <outputColumn
                       refId="Package\Data Flow Task\NetSuite Destination.Outputs[Secondary Error Output 1].Columns[class]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
+                      length="30"
                       lineageId="Package\Data Flow Task\NetSuite Destination.Outputs[Secondary Error Output 1].Columns[class]"
                       name="class" />
                     <outputColumn
                       refId="Package\Data Flow Task\NetSuite Destination.Outputs[Secondary Error Output 1].Columns[item]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
+                      length="4"
                       lineageId="Package\Data Flow Task\NetSuite Destination.Outputs[Secondary Error Output 1].Columns[item]"
                       name="item" />
                     <outputColumn
@@ -7343,7 +7390,9 @@
                       name="carRepairId" />
                     <outputColumn
                       refId="Package\Data Flow Task\NetSuite Destination.Outputs[Secondary Error Output 1].Columns[custcol_omni_subdivision_restricted]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
+                      length="30"
                       lineageId="Package\Data Flow Task\NetSuite Destination.Outputs[Secondary Error Output 1].Columns[custcol_omni_subdivision_restricted]"
                       name="custcol_omni_subdivision_restricted" />
                     <outputColumn
@@ -7452,7 +7501,9 @@
                       lineageId="Package\Data Flow Task\Derived Column (Failure).Outputs[Derived Column Output].Columns[Package]" />
                     <inputColumn
                       refId="Package\Data Flow Task\OLE DB Destination (Failure).Inputs[OLE DB Destination Input].Columns[entity]"
-                      cachedDataType="i4"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="30"
                       cachedName="entity"
                       externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination (Failure).Inputs[OLE DB Destination Input].ExternalColumns[Entity]"
                       lineageId="Package\Data Flow Task\NetSuite Destination.Outputs[Error Output].Columns[entity]" />
@@ -7604,7 +7655,9 @@
                       lineageId="Package\Data Flow Task\Derived Column (Success).Outputs[Derived Column Output].Columns[Package]" />
                     <inputColumn
                       refId="Package\Data Flow Task\OLE DB Destination (Success).Inputs[OLE DB Destination Input].Columns[entity]"
-                      cachedDataType="i4"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="30"
                       cachedName="entity"
                       externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination (Success).Inputs[OLE DB Destination Input].ExternalColumns[Entity]"
                       lineageId="Package\Data Flow Task\NetSuite Destination.Outputs[Default Output].Columns[entity]" />
@@ -7739,19 +7792,23 @@
                   <outputColumns>
                     <outputColumn
                       refId="Package\Data Flow Task\OLE DB Source (Child).Outputs[OLE DB Source Output].Columns[class]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\OLE DB Source (Child).Outputs[OLE DB Source Output].ExternalColumns[class]"
+                      length="30"
                       lineageId="Package\Data Flow Task\OLE DB Source (Child).Outputs[OLE DB Source Output].Columns[class]"
                       name="class"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
                       refId="Package\Data Flow Task\OLE DB Source (Child).Outputs[OLE DB Source Output].Columns[item]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\OLE DB Source (Child).Outputs[OLE DB Source Output].ExternalColumns[item]"
+                      length="4"
                       lineageId="Package\Data Flow Task\OLE DB Source (Child).Outputs[OLE DB Source Output].Columns[item]"
                       name="item"
                       truncationRowDisposition="FailComponent" />
@@ -7805,10 +7862,12 @@
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
                       refId="Package\Data Flow Task\OLE DB Source (Child).Outputs[OLE DB Source Output].Columns[custcol_omni_subdivision_restricted]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\OLE DB Source (Child).Outputs[OLE DB Source Output].ExternalColumns[custcol_omni_subdivision_restricted]"
+                      length="30"
                       lineageId="Package\Data Flow Task\OLE DB Source (Child).Outputs[OLE DB Source Output].Columns[custcol_omni_subdivision_restricted]"
                       name="custcol_omni_subdivision_restricted"
                       truncationRowDisposition="FailComponent" />
@@ -7817,11 +7876,15 @@
                     isUsed="True">
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Source (Child).Outputs[OLE DB Source Output].ExternalColumns[class]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
+                      length="30"
                       name="class" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Source (Child).Outputs[OLE DB Source Output].ExternalColumns[item]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
+                      length="4"
                       name="item" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Source (Child).Outputs[OLE DB Source Output].ExternalColumns[amount]"
@@ -7842,7 +7905,9 @@
                       name="carRepairId" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Source (Child).Outputs[OLE DB Source Output].ExternalColumns[custcol_omni_subdivision_restricted]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
+                      length="30"
                       name="custcol_omni_subdivision_restricted" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Source (Child).Outputs[OLE DB Source Output].ExternalColumns[custcol_omni_subdepartment_restricted]"
@@ -7870,12 +7935,16 @@
                       name="_linkId" />
                     <outputColumn
                       refId="Package\Data Flow Task\OLE DB Source (Child).Outputs[OLE DB Source Error Output].Columns[class]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
+                      length="30"
                       lineageId="Package\Data Flow Task\OLE DB Source (Child).Outputs[OLE DB Source Error Output].Columns[class]"
                       name="class" />
                     <outputColumn
                       refId="Package\Data Flow Task\OLE DB Source (Child).Outputs[OLE DB Source Error Output].Columns[item]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
+                      length="4"
                       lineageId="Package\Data Flow Task\OLE DB Source (Child).Outputs[OLE DB Source Error Output].Columns[item]"
                       name="item" />
                     <outputColumn
@@ -7909,7 +7978,9 @@
                       specialFlags="2" />
                     <outputColumn
                       refId="Package\Data Flow Task\OLE DB Source (Child).Outputs[OLE DB Source Error Output].Columns[custcol_omni_subdivision_restricted]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
+                      length="30"
                       lineageId="Package\Data Flow Task\OLE DB Source (Child).Outputs[OLE DB Source Error Output].Columns[custcol_omni_subdivision_restricted]"
                       name="custcol_omni_subdivision_restricted" />
                   </outputColumns>
@@ -7990,10 +8061,12 @@
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
                       refId="Package\Data Flow Task\OLE DB Source (Parent).Outputs[OLE DB Source Output].Columns[entity]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\OLE DB Source (Parent).Outputs[OLE DB Source Output].ExternalColumns[entity]"
+                      length="30"
                       lineageId="Package\Data Flow Task\OLE DB Source (Parent).Outputs[OLE DB Source Output].Columns[entity]"
                       name="entity"
                       truncationRowDisposition="FailComponent" />
@@ -8029,37 +8102,45 @@
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
                       refId="Package\Data Flow Task\OLE DB Source (Parent).Outputs[OLE DB Source Output].Columns[class]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\OLE DB Source (Parent).Outputs[OLE DB Source Output].ExternalColumns[class]"
+                      length="30"
                       lineageId="Package\Data Flow Task\OLE DB Source (Parent).Outputs[OLE DB Source Output].Columns[class]"
                       name="class"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
                       refId="Package\Data Flow Task\OLE DB Source (Parent).Outputs[OLE DB Source Output].Columns[currency]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\OLE DB Source (Parent).Outputs[OLE DB Source Output].ExternalColumns[currency]"
+                      length="1"
                       lineageId="Package\Data Flow Task\OLE DB Source (Parent).Outputs[OLE DB Source Output].Columns[currency]"
                       name="currency"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
                       refId="Package\Data Flow Task\OLE DB Source (Parent).Outputs[OLE DB Source Output].Columns[custbody_omni_class_restricted]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\OLE DB Source (Parent).Outputs[OLE DB Source Output].ExternalColumns[custbody_omni_class_restricted]"
+                      length="30"
                       lineageId="Package\Data Flow Task\OLE DB Source (Parent).Outputs[OLE DB Source Output].Columns[custbody_omni_class_restricted]"
                       name="custbody_omni_class_restricted"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
                       refId="Package\Data Flow Task\OLE DB Source (Parent).Outputs[OLE DB Source Output].Columns[custbody_omni_operational_id]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       externalMetadataColumnId="Package\Data Flow Task\OLE DB Source (Parent).Outputs[OLE DB Source Output].ExternalColumns[custbody_omni_operational_id]"
+                      length="30"
                       lineageId="Package\Data Flow Task\OLE DB Source (Parent).Outputs[OLE DB Source Output].Columns[custbody_omni_operational_id]"
                       name="custbody_omni_operational_id"
                       truncationRowDisposition="FailComponent" />
@@ -8156,7 +8237,9 @@
                       name="externalId" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Source (Parent).Outputs[OLE DB Source Output].ExternalColumns[entity]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
+                      length="30"
                       name="entity" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Source (Parent).Outputs[OLE DB Source Output].ExternalColumns[tranDate]"
@@ -8175,19 +8258,27 @@
                       name="postingPeriod" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Source (Parent).Outputs[OLE DB Source Output].ExternalColumns[class]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
+                      length="30"
                       name="class" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Source (Parent).Outputs[OLE DB Source Output].ExternalColumns[currency]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
+                      length="1"
                       name="currency" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Source (Parent).Outputs[OLE DB Source Output].ExternalColumns[custbody_omni_class_restricted]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
+                      length="30"
                       name="custbody_omni_class_restricted" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Source (Parent).Outputs[OLE DB Source Output].ExternalColumns[custbody_omni_operational_id]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
+                      length="30"
                       name="custbody_omni_operational_id" />
                     <externalMetadataColumn
                       refId="Package\Data Flow Task\OLE DB Source (Parent).Outputs[OLE DB Source Output].ExternalColumns[custcol_omni_subdivision_restricted]"
@@ -8271,7 +8362,9 @@
                       name="customer" />
                     <outputColumn
                       refId="Package\Data Flow Task\OLE DB Source (Parent).Outputs[OLE DB Source Error Output].Columns[entity]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
+                      length="30"
                       lineageId="Package\Data Flow Task\OLE DB Source (Parent).Outputs[OLE DB Source Error Output].Columns[entity]"
                       name="entity" />
                     <outputColumn
@@ -8294,7 +8387,9 @@
                       name="postingPeriod" />
                     <outputColumn
                       refId="Package\Data Flow Task\OLE DB Source (Parent).Outputs[OLE DB Source Error Output].Columns[class]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
+                      length="30"
                       lineageId="Package\Data Flow Task\OLE DB Source (Parent).Outputs[OLE DB Source Error Output].Columns[class]"
                       name="class" />
                     <outputColumn
@@ -8313,17 +8408,23 @@
                       name="custbody_omni_revenuetype" />
                     <outputColumn
                       refId="Package\Data Flow Task\OLE DB Source (Parent).Outputs[OLE DB Source Error Output].Columns[currency]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
+                      length="1"
                       lineageId="Package\Data Flow Task\OLE DB Source (Parent).Outputs[OLE DB Source Error Output].Columns[currency]"
                       name="currency" />
                     <outputColumn
                       refId="Package\Data Flow Task\OLE DB Source (Parent).Outputs[OLE DB Source Error Output].Columns[custbody_omni_class_restricted]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
+                      length="30"
                       lineageId="Package\Data Flow Task\OLE DB Source (Parent).Outputs[OLE DB Source Error Output].Columns[custbody_omni_class_restricted]"
                       name="custbody_omni_class_restricted" />
                     <outputColumn
                       refId="Package\Data Flow Task\OLE DB Source (Parent).Outputs[OLE DB Source Error Output].Columns[custbody_omni_operational_id]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
+                      length="30"
                       lineageId="Package\Data Flow Task\OLE DB Source (Parent).Outputs[OLE DB Source Error Output].Columns[custbody_omni_operational_id]"
                       name="custbody_omni_operational_id" />
                     <outputColumn
@@ -8381,7 +8482,9 @@
                   <inputColumns>
                     <inputColumn
                       refId="Package\Data Flow Task\Sort Child.Inputs[Sort Input].Columns[class]"
-                      cachedDataType="i4"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="30"
                       cachedName="class"
                       lineageId="Package\Data Flow Task\OLE DB Source (Child).Outputs[OLE DB Source Output].Columns[class]">
                       <properties>
@@ -8397,7 +8500,9 @@
                     </inputColumn>
                     <inputColumn
                       refId="Package\Data Flow Task\Sort Child.Inputs[Sort Input].Columns[item]"
-                      cachedDataType="i4"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="4"
                       cachedName="item"
                       lineageId="Package\Data Flow Task\OLE DB Source (Child).Outputs[OLE DB Source Output].Columns[item]">
                       <properties>
@@ -8478,7 +8583,9 @@
                     </inputColumn>
                     <inputColumn
                       refId="Package\Data Flow Task\Sort Child.Inputs[Sort Input].Columns[custcol_omni_subdivision_restricted]"
-                      cachedDataType="i4"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="30"
                       cachedName="custcol_omni_subdivision_restricted"
                       lineageId="Package\Data Flow Task\OLE DB Source (Child).Outputs[OLE DB Source Output].Columns[custcol_omni_subdivision_restricted]">
                       <properties>
@@ -8522,7 +8629,9 @@
                   <outputColumns>
                     <outputColumn
                       refId="Package\Data Flow Task\Sort Child.Outputs[Sort Output].Columns[class]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
+                      length="30"
                       lineageId="Package\Data Flow Task\Sort Child.Outputs[Sort Output].Columns[class]"
                       name="class">
                       <properties>
@@ -8535,7 +8644,9 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Sort Child.Outputs[Sort Output].Columns[item]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
+                      length="4"
                       lineageId="Package\Data Flow Task\Sort Child.Outputs[Sort Output].Columns[item]"
                       name="item">
                       <properties>
@@ -8602,7 +8713,9 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Sort Child.Outputs[Sort Output].Columns[custcol_omni_subdivision_restricted]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
+                      length="30"
                       lineageId="Package\Data Flow Task\Sort Child.Outputs[Sort Output].Columns[custcol_omni_subdivision_restricted]"
                       name="custcol_omni_subdivision_restricted">
                       <properties>
@@ -8675,7 +8788,9 @@
                     </inputColumn>
                     <inputColumn
                       refId="Package\Data Flow Task\Sort Parent.Inputs[Sort Input].Columns[entity]"
-                      cachedDataType="i4"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="30"
                       cachedName="entity"
                       lineageId="Package\Data Flow Task\OLE DB Source (Parent).Outputs[OLE DB Source Output].Columns[entity]">
                       <properties>
@@ -8742,7 +8857,9 @@
                     </inputColumn>
                     <inputColumn
                       refId="Package\Data Flow Task\Sort Parent.Inputs[Sort Input].Columns[class]"
-                      cachedDataType="i4"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="30"
                       cachedName="class"
                       lineageId="Package\Data Flow Task\OLE DB Source (Parent).Outputs[OLE DB Source Output].Columns[class]">
                       <properties>
@@ -8758,7 +8875,9 @@
                     </inputColumn>
                     <inputColumn
                       refId="Package\Data Flow Task\Sort Parent.Inputs[Sort Input].Columns[currency]"
-                      cachedDataType="i4"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="1"
                       cachedName="currency"
                       lineageId="Package\Data Flow Task\OLE DB Source (Parent).Outputs[OLE DB Source Output].Columns[currency]">
                       <properties>
@@ -8774,7 +8893,9 @@
                     </inputColumn>
                     <inputColumn
                       refId="Package\Data Flow Task\Sort Parent.Inputs[Sort Input].Columns[custbody_omni_class_restricted]"
-                      cachedDataType="i4"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="30"
                       cachedName="custbody_omni_class_restricted"
                       lineageId="Package\Data Flow Task\OLE DB Source (Parent).Outputs[OLE DB Source Output].Columns[custbody_omni_class_restricted]">
                       <properties>
@@ -8790,7 +8911,9 @@
                     </inputColumn>
                     <inputColumn
                       refId="Package\Data Flow Task\Sort Parent.Inputs[Sort Input].Columns[custbody_omni_operational_id]"
-                      cachedDataType="i4"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="30"
                       cachedName="custbody_omni_operational_id"
                       lineageId="Package\Data Flow Task\OLE DB Source (Parent).Outputs[OLE DB Source Output].Columns[custbody_omni_operational_id]">
                       <properties>
@@ -8969,7 +9092,9 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Sort Parent.Outputs[Sort Output].Columns[entity]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
+                      length="30"
                       lineageId="Package\Data Flow Task\Sort Parent.Outputs[Sort Output].Columns[entity]"
                       name="entity">
                       <properties>
@@ -9024,7 +9149,9 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Sort Parent.Outputs[Sort Output].Columns[class]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
+                      length="30"
                       lineageId="Package\Data Flow Task\Sort Parent.Outputs[Sort Output].Columns[class]"
                       name="class">
                       <properties>
@@ -9037,7 +9164,9 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Sort Parent.Outputs[Sort Output].Columns[currency]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
+                      length="1"
                       lineageId="Package\Data Flow Task\Sort Parent.Outputs[Sort Output].Columns[currency]"
                       name="currency">
                       <properties>
@@ -9050,7 +9179,9 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Sort Parent.Outputs[Sort Output].Columns[custbody_omni_class_restricted]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
+                      length="30"
                       lineageId="Package\Data Flow Task\Sort Parent.Outputs[Sort Output].Columns[custbody_omni_class_restricted]"
                       name="custbody_omni_class_restricted">
                       <properties>
@@ -9063,7 +9194,9 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Sort Parent.Outputs[Sort Output].Columns[custbody_omni_operational_id]"
-                      dataType="i4"
+                      codePage="1252"
+                      dataType="str"
+                      length="30"
                       lineageId="Package\Data Flow Task\Sort Parent.Outputs[Sort Output].Columns[custbody_omni_operational_id]"
                       name="custbody_omni_operational_id">
                       <properties>
@@ -9257,7 +9390,7 @@
         <NodeLayout
           Size="155,42"
           Id="Package\Data Flow Task"
-          TopLeft="383,196" />
+          TopLeft="259,187" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
@@ -9524,9 +9657,9 @@
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-28.4999999999999,60"
+              EndConnector="-28.5,60"
               Start="0,0"
-              End="-28.4999999999999,52.5">
+              End="-28.5,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
@@ -9537,13 +9670,13 @@
                     Point2="0,24.3189368770764"
                     Point3="-4,24.3189368770764" />
                   <mssgle:LineSegment
-                    End="-24.4999999999999,24.3189368770764" />
+                    End="-24.5,24.3189368770764" />
                   <mssgle:CubicBezierSegment
-                    Point1="-24.4999999999999,24.3189368770764"
-                    Point2="-28.4999999999999,24.3189368770764"
-                    Point3="-28.4999999999999,28.3189368770764" />
+                    Point1="-24.5,24.3189368770764"
+                    Point2="-28.5,24.3189368770764"
+                    Point3="-28.5,28.3189368770764" />
                   <mssgle:LineSegment
-                    End="-28.4999999999999,52.5" />
+                    End="-28.5,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
